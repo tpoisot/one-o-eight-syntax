@@ -2,7 +2,7 @@
   "name": "writer-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "A multi-purpose, light, theme, for prose and coding.",
   "repository": "https://github.com/atom/writer-syntax",
   "license": "MIT",
   "engines": {
