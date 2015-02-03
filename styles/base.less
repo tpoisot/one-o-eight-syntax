@@ -81,7 +81,7 @@ atom-text-editor .search-results .marker.current-result .region,
   color: @purple;
 
   &.control {
-    color: @purple;
+    color: @green;
   }
 
   &.operator {
@@ -134,7 +134,7 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .invalid.illegal {
-  background-color: @red;
+  background-color: darken(@red, 10%);
   color: @syntax-background-color;
 }
 
@@ -299,7 +299,8 @@ atom-text-editor .search-results .marker.current-result .region,
 .source.gfm .markup {
   -webkit-font-smoothing: auto;
   &.heading {
-    color: @green;
+    color: @gray;
+    font-weight: bold;
   }
 }
 
