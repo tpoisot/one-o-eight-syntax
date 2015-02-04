@@ -2,6 +2,30 @@
   -webkit-font-smoothing: auto;
   &.heading {
     color: @dark-grey;
-    font-weight: bold;
+    font-weight: normal;
   }
+}
+
+.source.gfm {
+   // Quotes
+   .quote {
+      color: @dark-grey;
+   }
+   // Raw code
+   .raw {
+      color: @dark-grey;
+   }
+   // Links
+   .link {
+      .entity {
+         color: @blue;
+      }
+      .underline {
+         color: @light-grey;
+      }
+   }
+   // Support characters
+   .support {
+      color: @light-green;
+   }
 }
