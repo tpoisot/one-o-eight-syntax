@@ -1,3 +1,6 @@
+## 0.0.4
+* Ooooops
+
 ## 0.0.3
 * Selection is lighter
 * Markdown links are in light yellow to differentiate from inline code
