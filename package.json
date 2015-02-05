@@ -1,7 +1,7 @@
 {
   "name": "writer-syntax",
   "theme": "syntax",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A multi-purpose, light, theme, for prose and coding.",
   "repository": "https://github.com/tpoisot/writer-syntax",
   "license": "MIT",
