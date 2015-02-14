@@ -1,3 +1,6 @@
+## 0.0.6
+* Tweak to the selection background
+
 ## 0.0.5
 * Functions are light blue instead of light green
 * Selection has slight transparency
