@@ -47,7 +47,7 @@ atom-text-editor, :host {
   }
 
   .selection .region {
-    background-color: @syntax-selection-color;
+    background-color: fade(@syntax-selection-color, 90%);
   }
 }
 
@@ -195,7 +195,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.function  {
-    color: @light-green;
+    color: @light-blue;
 
     &.any-method {
       color: @purple;
