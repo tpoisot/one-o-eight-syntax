@@ -1,6 +1,7 @@
 ## 0.1.1
 * `.entity.name.type` is light green
-* `.entity.name.tage` is not underlined
+* `.entity.name.tag` is not underlined
+* GFM headers are light blue
 
 ## 0.1.0
 * fixed set of colors
