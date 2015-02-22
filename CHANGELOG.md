@@ -1,3 +1,7 @@
+## 0.0.10
+* strings are green
+* slightly darker gutter
+
 ## 0.0.9
 * grey fix
 
