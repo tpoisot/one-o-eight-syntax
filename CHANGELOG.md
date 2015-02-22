@@ -1,3 +1,6 @@
+## 0.0.8
+* light orange fixed
+
 ## 0.0.7
 * less colors
 
