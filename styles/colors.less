@@ -1,23 +1,32 @@
 // These colors are specific to the theme. Do not use in a package!
 
-@white: rgb(254, 254, 254);
-@black: rgb(25, 25, 25);
+@white: rgb(255, 255, 255);
+@black: rgb(53, 53, 53);
 
-@light-grey: #bdbdbd;
-@grey: #969696;
-@dark-grey: #636363;
+@very-light-gray: mix(@white, @black, 92%);
+@light-gray: mix(@white, @black, 72%);
+@gray: mix(@white, @black, 52%);
+@dark-gray: mix(@white, @black, 32%);
+@very-dark-gray: mix(@white, @black, 12%);
 
-@blue: #1f77b4;
-@lblue: #aec7e8;
+@lighten: 35%;
+
+// Following colors from the brewer category20 scale
 
 @orange: #ff7f0e;
-@lorange: #ffbb78;
+@light-orange: lighten(@orange, @lighten);
 
 @green: #2ca02c;
-@lgreen: #98df8a;
+@light-green: lighten(@green, @lighten);
 
-@red: #d62728;
-@lred: #ff9896;
+@blue: #1f77b4;
+@light-blue: lighten(@blue, @lighten);
 
 @purple: #9467bd;
-@lpurple: #c5b0d5;
+@light-purple: lighten(@purple, @lighten);
+
+@cyan: #17becf;
+@light-cyan: lighten(@cyan, @lighten);
+
+@red: #d62728;
+@light-red: lighten(@red, @lighten);

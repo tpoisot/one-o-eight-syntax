@@ -1,3 +1,10 @@
+## 0.1.0
+* fixed set of colors
+* FIXME, TODO, and CHANGED are highlighted
+* blue titles in markdown
+* lighter list symbols in markdown
+* exceptions in red
+
 ## 0.0.11
 * added red back
 
