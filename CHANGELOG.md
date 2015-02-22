@@ -4,6 +4,8 @@
 * GFM headers are light blue
 * GFM bold and italics are in black
 * GFM raw code is purple
+* Color for macro
+* Lighter git colors
 
 ## 0.1.0
 * fixed set of colors
