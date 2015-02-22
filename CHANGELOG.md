@@ -1,3 +1,6 @@
+## 0.0.11
+* added red back
+
 ## 0.0.10
 * strings are green
 * slightly darker gutter

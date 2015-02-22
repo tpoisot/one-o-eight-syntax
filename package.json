@@ -3,8 +3,8 @@
   "theme": "syntax",
   "version": "0.0.10",
   "description": "A multi-purpose, light, theme, for prose and coding.",
-  "repository": "https://github.com/tpoisot/writer-syntax",
   "license": "MIT",
+  "repository": "https://github.com/tpoisot/writer-syntax",
   "engines": {
     "atom": ">0.50.0"
   }
