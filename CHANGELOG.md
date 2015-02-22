@@ -1,3 +1,6 @@
+## 0.0.7
+* less colors
+
 ## 0.0.6
 * Tweak to the selection background
 
