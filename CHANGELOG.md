@@ -1,3 +1,6 @@
+## 0.1.1
+* `.entity.name.type` is light green
+
 ## 0.1.0
 * fixed set of colors
 * FIXME, TODO, and CHANGED are highlighted
