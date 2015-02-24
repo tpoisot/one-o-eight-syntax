@@ -1,3 +1,6 @@
+## 0.1.2
+* Comment first symbol is lighter
+
 ## 0.1.1
 * `.entity.name.type` is light green
 * `.entity.name.tag` is not underlined
