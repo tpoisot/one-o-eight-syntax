@@ -1,5 +1,6 @@
 ## 0.1.2
 * Comment first symbol is lighter
+* BG is a liiiittle bit off-white
 
 ## 0.1.1
 * `.entity.name.type` is light green
