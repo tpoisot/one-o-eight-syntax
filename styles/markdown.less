@@ -1,7 +1,7 @@
 .source.gfm .markup {
   -webkit-font-smoothing: auto;
   &.heading {
-    color: @light-blue;
+    color: @dark-gray;
     font-weight: bold;
   }
 }
@@ -13,12 +13,12 @@
   }
   // List
   .list{
-    color: @light-gray;
+    color: @very-light-gray;
     font-weight: bold;
   }
   // Quotes
   .quote {
-    color: @dark-gray;
+    color: @very-dark-gray;
   }
   // Raw code
   .raw {
@@ -35,6 +35,14 @@
   }
   // Support characters
   .support {
-    color: @cyan;
+    color: @light-green;
+    font-weight: bold;
+  }
+  // For references
+  .mention {
+    color: @light-blue;
+  }
+  .username {
+    color: @light-orange;
   }
 }

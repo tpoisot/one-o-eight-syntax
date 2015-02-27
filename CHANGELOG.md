@@ -1,3 +1,10 @@
+## 0.1.3
+* Gutter is lighter
+* Background is a little bit more off white
+* markdown titles are grey
+* markdown lists are light grey
+* Improvements to gfm references
+
 ## 0.1.2
 * Comment first symbol is lighter
 * BG is a liiiittle bit off-white
