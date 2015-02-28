@@ -1,3 +1,9 @@
+## 0.1.4
+* BG and FG tweaked
+* markdown titles are paler
+* markdown link URL lighter
+* quotes around strings, etc, are grey
+
 ## 0.1.3
 * Gutter is lighter
 * markdown titles are grey
