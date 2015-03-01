@@ -100,19 +100,26 @@ atom-text-editor .search-results .marker.current-result .region,
   color: @purple;
 }
 
+.todo, .fixme, .changed, .xxx {
+  border-radius: 4px;
+  display: inline-block;
+  color: @white;
+}
+
 .todo{
-  font-weight: bold;
-  color: @orange;
+  background-color: @light-orange;
 }
 
 .fixme{
-  font-weight: bold;
-  color: @red;
+  background-color: @light-red;
 }
 
 .changed{
-  font-weight: bold;
-  color: @blue;
+  background-color: @light-blue;
+}
+
+.xxx{
+  background-color: @light-purple;
 }
 
 .constant {
