@@ -3,6 +3,7 @@
 - Invisibles and indent guides are lighter
 - Added `XXX` in highlighted comment marks
 - Comment marks now on solid light background
+- Better highlighting of markdown headers
 
 ## 0.1.4
 - BG and FG tweaked
