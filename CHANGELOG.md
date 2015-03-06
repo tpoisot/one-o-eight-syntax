@@ -1,4 +1,4 @@
-## 0.2.0
+## 0.3.0
 - Changed markdown bullet color
 - Invisibles and indent guides are lighter
 - Added `XXX` in highlighted comment marks
