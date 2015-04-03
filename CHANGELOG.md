@@ -1,3 +1,8 @@
+## 0.3.1
+
+- Changed `types` to `@light-orange`
+- Changed `function` to `@blue`
+
 ## 0.3.0
 - Changed markdown bullet color
 - Invisibles and indent guides are lighter
