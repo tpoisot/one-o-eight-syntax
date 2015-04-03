@@ -98,6 +98,11 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .storage {
   color: @purple;
+
+  &.type {
+    color: @light-orange;
+  }
+
 }
 
 .todo, .fixme, .changed, .xxx {
@@ -206,7 +211,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.section.embedded {
-    color: darken(@red, 10%);
+    color: @red;
   }
 
 }
@@ -224,7 +229,8 @@ atom-text-editor .search-results .marker.current-result .region,
     color: @light-blue;
 
     &.macro {
-      color: @light-red;
+      color: @light-purple;
+      font-weight: bold;
     }
 
     &.any-method {
