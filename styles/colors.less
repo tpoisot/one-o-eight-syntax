@@ -1,27 +1,28 @@
 // These colors are specific to the theme. Do not use in a package!
 
-@white: rgb(247, 247, 247);
-@black: rgb(62, 62, 62);
+@white: rgb(243, 243, 243);
+@black: rgb(70, 70, 70);
 
 @very-light-gray: mix(@white, @black, 90%);
-@light-gray: mix(@white, @black, 70%);
+@light-gray: mix(@white, @black, 60%);
 @gray: mix(@white, @black, 50%);
 @dark-gray: mix(@white, @black, 30%);
 @very-dark-gray: mix(@white, @black, 10%);
 
-@lighten: 15%;
+@desaturate: 8%;
+@lighten: 5%;
 
-// The following colors are from the brewer category20 scale
-@orange: #ff7f0e;
-@green: #2ca02c;
-@blue: #1f77b4;
-@purple: #9467bd;
-@cyan: #17becf;
-@red: #d62728;
+// Base colors
+@orange: hsl(25, 75%, 60%);
+@green: hsv(100, 75%, 60%);
+@blue: hsv(198, 75%, 60%);
+@purple: hsv(270,30%, 60%);
+@cyan: hsv(180, 75%, 60%);
+@red: hsv(350, 75%, 60%);
 
-@light-purple: lighten(@purple, @lighten);
-@light-blue: lighten(@blue, @lighten);
-@light-green: lighten(@green, @lighten);
-@light-orange: lighten(@orange, @lighten);
-@light-cyan: lighten(@cyan, @lighten);
-@light-red: lighten(@red, @lighten);
+@light-purple: lighten(desaturate(@purple, @desaturate), @lighten);
+@light-blue: lighten(desaturate(@blue, @desaturate), @lighten);
+@light-green: lighten(desaturate(@green, @desaturate), @lighten);
+@light-orange: lighten(desaturate(@orange, @desaturate), @lighten);
+@light-cyan: lighten(desaturate(@cyan, @desaturate), @lighten);
+@light-red: lighten(desaturate(@red, @desaturate), @lighten);
