@@ -1,24 +1,26 @@
 // These colors are specific to the theme. Do not use in a package!
 
-@white: rgb(243, 243, 243);
+@white: rgb(239, 239, 239);
 @black: rgb(70, 70, 70);
 
 @very-light-gray: mix(@white, @black, 90%);
-@light-gray: mix(@white, @black, 60%);
+@light-gray: mix(@white, @black, @L);
 @gray: mix(@white, @black, 50%);
 @dark-gray: mix(@white, @black, 30%);
 @very-dark-gray: mix(@white, @black, 10%);
 
-@desaturate: 8%;
-@lighten: 5%;
+@desaturate: 9%;
+@lighten: 9%;
+
+@L: 55%;
 
 // Base colors
-@orange: hsl(25, 75%, 60%);
-@green: hsv(100, 75%, 60%);
-@blue: hsv(198, 75%, 60%);
-@purple: hsv(270,30%, 60%);
-@cyan: hsv(180, 75%, 60%);
-@red: hsv(350, 75%, 60%);
+@orange: hsl(25, 70%, @L);
+@green: hsv(100, 70%, @L);
+@blue: hsv(198, 70%, @L);
+@purple: hsv(270,40%, @L);
+@cyan: hsv(180, 70%, @L);
+@red: hsv(350, 70%, @L);
 
 @light-purple: lighten(desaturate(@purple, @desaturate), @lighten);
 @light-blue: lighten(desaturate(@blue, @desaturate), @lighten);
