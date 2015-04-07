@@ -15,19 +15,15 @@
 .source.gfm {
   // Bold and italic
   .bold, .italic {
-    color: @black;
+    color: @very-dark-gray;
   }
   // List
   .list {
-    color: @light-gray;
-    &.cursor-line {
-      color: @gray;
-    }
-    font-weight: bold;
+    color: @light-cyan;
   }
   // Quotes
   .quote {
-    color: @very-dark-gray;
+    color: @dark-gray;
   }
   // Raw code
   .raw {
@@ -36,15 +32,19 @@
   // Links
   .link {
     .entity {
-      color: @blue;
+      color: @very-dark-gray;
     }
     .underline {
-      color: @light-orange;
+      color: @gray;
+    }
+    .punctuation {
+      color: @light-gray;
     }
   }
   // Support characters
   .support {
-    color: @light-purple;
+    color: @cyan;
+    font-weight: bold;
   }
   // For references
   .mention {
