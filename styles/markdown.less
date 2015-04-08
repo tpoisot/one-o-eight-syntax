@@ -1,10 +1,10 @@
 .source.gfm .markup {
   -webkit-font-smoothing: auto;
   &.heading {
-    color: @dark-gray;
+    color: @light-blue;
   }
   &.heading-1 {
-    color: @very-dark-gray;
+    color: @blue;
     font-weight: bold;
   }
   &.heading-2 {
@@ -15,7 +15,7 @@
 .source.gfm {
   // Bold and italic
   .bold, .italic {
-    color: @very-dark-gray;
+    color: @syntax-text-color;
   }
   // List
   .list {
@@ -33,24 +33,25 @@
   .link {
     .entity {
       color: @very-dark-gray;
+      background-color: @very-light-gray;
     }
     .underline {
-      color: @gray;
+      color: @dark-gray;
     }
     .punctuation {
-      color: @light-gray;
+      color: @gray;
     }
   }
   // Support characters
   .support {
-    color: @cyan;
+    color: @green;
     font-weight: bold;
   }
   // For references
   .mention {
-    color: @light-blue;
+    color: @light-purple;
   }
   .username {
-    color: @light-orange;
+    color: @orange;
   }
 }
