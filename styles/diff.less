@@ -1,9 +1,25 @@
 // Syntax coloring for diff
 
-.source.diff {
-  .header {
-    .from-file {
-      color: @light-cyan;
-    }
+.source .meta.diff {
+  &.header {
+    color: @light-purple !important;
+  }
+  &.range {
+    color: @very-light-gray !important;
+  }
+  &.line-number {
+    color: @dark-gray !important;
+    font-weight: bold;
+  }
+}
+
+.source .diff{
+  &.deleted {
+    color: @red !important;
+    font-weight: bold;
+  }
+  &.inserted {
+    color: @green !important;
+    font-weight: bold;
   }
 }
