@@ -2,6 +2,11 @@
   -webkit-font-smoothing: auto;
   &.heading {
     color: @gray;
+    &.space, &.marker {
+      text-decoration: none !important;
+      display: inline-block;
+      font-style: normal !important;
+    }
   }
   &.heading-1 {
     color: @very-dark-gray;
@@ -10,6 +15,15 @@
   &.heading-2 {
     color: @dark-gray;
     font-weight: bold;
+  }
+  &.heading-3 {
+    color: @dark-gray;
+  }
+  &.heading-4 {
+    text-decoration: underline;
+  }
+  &.heading-6 {
+    font-style: italic;
   }
   &.marker {
     color: @light-gray !important;
