@@ -75,7 +75,7 @@
   }
 }
 
-
+// Syntax for tables
 .source.gfm {
   .table.gfm {
     .border {
@@ -87,8 +87,33 @@
         color: @very-light-gray;
       }
     }
-    .modifier {
+    .alignment {
       color: @light-gray;
     }
+  }
+}
+
+// Syntax for critic markup
+.source.gfm > .critic.gfm {
+  &.addition {
+    color: @light-green;
+  }
+  &.deletion {
+    color: @light-red;
+  }
+  &.substitution {
+    color: @orange;
+  }
+  &.comment {
+    color: @light-blue;
+  }
+  &.highlight {
+    color: @light-purple;
+  }
+  .marker {
+    color: @dark-gray !important;
+  }
+  .operator {
+    color: @gray !important;
   }
 }
