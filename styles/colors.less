@@ -1,29 +1,27 @@
 // These colors are specific to the theme. Do not use in a package!
 
-@W: 251;
-@B: 50;
+@W: 248;
+@B: 61;
 
-@white: rgb(@W, @W, @W);
-@black: rgb(@B, @B, @B);
+@writer-bg: rgb(@W, @W, @W);
+@writer-fg: rgb(@B, @B, @B);
 
-@very-light-gray: mix(@white, @black, 92%);
-@light-gray: mix(@white, @black, 71%);
-@gray: mix(@white, @black, 50%);
-@dark-gray: mix(@white, @black, 29%);
-@very-dark-gray: mix(@white, @black, 8%);
+@very-light-gray: mix(@writer-bg, @writer-fg, 90%);
+@light-gray: mix(@writer-bg, @writer-fg, 70%);
+@gray: mix(@writer-bg, @writer-fg, 50%);
+@dark-gray: mix(@writer-bg, @writer-fg, 30%);
+@very-dark-gray: mix(@writer-bg, @writer-fg, 10%);
 
-@desaturate: 10%;
-@lighten: 5%;
-
-@L: 61%;
+@desaturate: 4%;
+@lighten: 2%;
 
 // Base colors
-@orange: hsl(25, 90%, @L);
-@green: hsv(100, 90%, @L);
-@blue: hsv(198, 90%, @L);
-@purple: hsv(270,45%, @L);
-@cyan: hsv(180, 90%, @L);
-@red: hsv(5, 90%, @L);
+@orange: hsl(32, 90%, 45%);
+@green: hsl(100, 80%, 32%);
+@blue: hsl(198, 80%, 35%);
+@purple: hsl(270, 40%, 50%);
+@cyan: hsl(180, 80%, 30%);
+@red: hsl(8, 85%, 45%);
 
 @light-purple: lighten(desaturate(@purple, @desaturate), @lighten);
 @light-blue: lighten(desaturate(@blue, @desaturate), @lighten);
