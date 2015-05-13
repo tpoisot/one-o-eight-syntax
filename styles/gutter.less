@@ -1,0 +1,18 @@
+.gutter {
+  .cursor-line {
+    background-color: none !important;
+    z-index: -100;
+  }
+  .git-line-added {
+    color: @light-green;
+    &.cursor-line {
+      color: @green;
+    }
+  }
+  .git-line-modified {
+    color: @light-blue;
+    &.cursor-line {
+      color: @blue;
+    }
+  }
+}
