@@ -5,8 +5,8 @@
 
 // General colors
 @syntax-text-color: @writer-fg;
-@syntax-cursor-color: @dark-gray;
-@syntax-selection-color: @very-light-gray;
+@syntax-cursor-color: @blue;
+@syntax-selection-color: fadeout(lighten(@light-blue, 50%), 60%);
 @syntax-background-color: @writer-bg;
 
 // Guide colors
@@ -15,14 +15,14 @@
 @syntax-invisible-character-color: @very-light-gray;
 
 // For find and replace markers
-@syntax-result-marker-color: @light-gray;
-@syntax-result-marker-color-selected: white;
+@syntax-result-marker-color: fadeout(@light-orange, 40%);
+@syntax-result-marker-color-selected: fadeout(@orange, 40%);
 
 // Gutter colors
 @syntax-gutter-text-color: @dark-gray;
 @syntax-gutter-text-color-selected: @very-dark-gray;
 @syntax-gutter-background-color: @writer-bg;
-@syntax-gutter-background-color-selected: @syntax-gutter-background-color;
+@syntax-gutter-background-color-selected: fadeout(@very-light-gray, 80%);
 
 // For git diff info. i.e. in the gutter
 @syntax-color-renamed: @purple;

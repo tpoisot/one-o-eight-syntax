@@ -1,3 +1,9 @@
+## 0.6.2
+
+- blue cursor and selection
+- cursor line is slightly highlighted
+- search results are highlighted (incl. current one)
+
 ## 0.6.1
 
 - highlight line numbers as a function of git status for better visual grepping

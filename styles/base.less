@@ -16,6 +16,10 @@ atom-text-editor, :host {
     color: @syntax-invisible-character-color;
   }
 
+  .cursor-line {
+    background-color: @syntax-gutter-background-color-selected;
+  }
+
   .gutter {
     background-color: @syntax-gutter-background-color;
     color: @syntax-gutter-text-color;
@@ -47,19 +51,20 @@ atom-text-editor, :host {
   }
 
   .selection .region {
-    background-color: fade(@syntax-selection-color, 80%);
+    background-color: @syntax-selection-color;
   }
 }
 
-atom-text-editor .search-results .marker .region,
-:host .search-results .marker .region {
-  background-color: @light-red;
-  border: 1px solid @syntax-result-marker-color;
+atom-text-editor::shadow {
+    .find-result .region {
+        background-color: fadeout(@syntax-result-marker-color, 45%);
+        border: 1px solid @syntax-result-marker-color;
+    }
 }
 
-atom-text-editor .search-results .marker.current-result .region,
-:host .search-results .marker.current-result .region {
-  border: 1px solid @syntax-result-marker-color-selected;
+atom-text-editor::shadow .highlight.current-result .region,
+atom-text-editor::shadow .highlight.current-result ~ .highlight.selection .region {
+  background-color: fadeout(@syntax-result-marker-color-selected, 45%);
 }
 
 .comment {
