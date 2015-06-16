@@ -1,3 +1,7 @@
+## Currently unreleased
+
+- selection slightly fixed
+
 ## 0.6.2
 
 - blue cursor and selection
