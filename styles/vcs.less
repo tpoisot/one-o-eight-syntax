@@ -16,3 +16,16 @@
     }
   }
 }
+
+.list-tree, .tree-view-directory{
+  .status-modified {
+    color: @blue !important;
+  }
+  .status-added {
+    color: @green !important;
+  }
+}
+
+.list-tree li.list-nested-item.selected.status-modified > .list-item {
+  color: @blue !important;
+}
