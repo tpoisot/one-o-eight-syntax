@@ -1,8 +1,10 @@
-## Currently unreleased
+## 0.6.3
 
 - lighter criticmarkup
 - selection slightly fixed
 - VCS color in the sidebar
+- colors overall easier on the eye
+- less obnoxious red
 
 ## 0.6.2
 
