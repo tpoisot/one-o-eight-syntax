@@ -1,4 +1,4 @@
-## In progress
+## 0.7.1
 
 - `.gfm`
   * `raw` code is darker
