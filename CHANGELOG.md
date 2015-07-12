@@ -1,3 +1,13 @@
+## 0.6.4
+
+- better handling of gfm @mentions
+- gfm `raw code` has a box around
+- bolder gfm table borders
+- better bacground and foreground
+- better cursor line color
+- more visible selection
+- `---` highlighted in gfm
+
 ## 0.6.3
 
 - lighter criticmarkup

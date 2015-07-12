@@ -36,6 +36,11 @@
   .bold, .italic {
     color: @syntax-text-color;
   }
+  // Rules
+  .hr {
+    font-weight: bold;
+    color: @light-gray;
+  }
   // List
   .list {
     color: @blue;
@@ -47,6 +52,11 @@
   // Raw code
   .raw {
     color: @light-green;
+    border-radius: 3px;
+    border: 1px solid @light-gray;
+    background-color: @very-light-gray;
+    margin-left: -1px;
+    margin-right: -1px;
   }
   // Links
   .link {
@@ -67,10 +77,10 @@
   }
   // For references
   .mention {
-    color: @light-gray;
+    color: @light-blue;
   }
   .username {
-    color: @blue;
+    color: @light-purple;
   }
 }
 
@@ -79,6 +89,7 @@
   .table.gfm {
     .border {
       color: @gray;
+      font-weight: bold;
       &.outer {
         color: @dark-gray;
       }
