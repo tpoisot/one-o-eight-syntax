@@ -6,6 +6,8 @@
   * List and bullets are gray
 - General
   * Changed `@light-*` colors
+- minimap
+  * very slight background
 
 ## 0.7.0
 
