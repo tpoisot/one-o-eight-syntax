@@ -3,9 +3,9 @@
 - `.gfm`
   * `raw` code is darker
   * Better highlighting of heading markers
+  * List and bullets are gray
 - General
   * Changed `@light-*` colors
-  * Links are grey, underlined in purple
 
 ## 0.7.0
 
