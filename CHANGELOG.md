@@ -1,10 +1,19 @@
-## 0.6.4
+## In progress
+
+- `.gfm`
+  * `raw` code is darker
+  * Better highlighting of heading markers
+- General
+  * Changed `@light-*` colors
+  * Links are grey, underlined in purple
+
+## 0.7.0
 
 - better handling of gfm @mentions
 - gfm `raw code` has a box around
 - bolder gfm table borders
-- better bacground and foreground
-- better cursor line color
+- better background and foreground
+- better curssor line color
 - more visible selection
 - `---` highlighted in gfm
 
