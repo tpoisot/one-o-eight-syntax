@@ -14,16 +14,16 @@
 
 **Markdown**
 
-![GFM](img/writer-gfm.png)
+![GFM](https://github.com/tpoisot/writer-syntax/raw/master/img/writer-gfm.png)
 
 **Comments**
 
-![comments](img/writer-comments.png)
+![comments](https://github.com/tpoisot/writer-syntax/raw/master/img/writer-comments.png)
 
 **JSON**
 
-![json](img/writer-json.png)
+![json](https://github.com/tpoisot/writer-syntax/raw/master/img/writer-json.png)
 
 **Indentation**
 
-![indent](img/writer-indent.png)
+![indent](https://github.com/tpoisot/writer-syntax/raw/master/img/writer-indent.png)
