@@ -1,3 +1,10 @@
+## 0.7.2
+
+- `.python`
+  * Better color handling of `class`, etc.
+- base
+  * `.punctuation` is defined globally
+
 ## 0.7.1
 
 - `.gfm`
