@@ -8,6 +8,7 @@
 - Support for `diff`
 - Support for `indent-guide-improved`
 - Support for `json`
+- Support for `python`
 
 ## Screenshots
 

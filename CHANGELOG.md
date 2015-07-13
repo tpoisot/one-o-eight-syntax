@@ -1,3 +1,8 @@
+## 0.7.3
+
+- Better indent
+  * `z-index` property fixed
+
 ## 0.7.2
 
 - `.python`
