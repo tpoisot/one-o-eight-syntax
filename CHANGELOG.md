@@ -4,6 +4,7 @@
   * `z-index` property fixed
 - `.gfm`
   * Mentions and support fixed
+  * Headers colors less obstrusive
 
 ## 0.7.2
 

@@ -1,7 +1,7 @@
 .source.gfm .markup {
   -webkit-font-smoothing: auto;
   &.heading {
-    color: @gray;
+    color: @light-gray;
     &.space, &.marker {
       text-decoration: none !important;
       display: inline-block;
@@ -9,25 +9,27 @@
     }
   }
   &.heading-1 {
-    color: @writer-fg;
+    color: @very-dark-gray;
     font-weight: bold;
   }
   &.heading-2 {
-    color: @very-dark-gray;
+    color: @dark-gray;
     font-weight: bold;
   }
   &.heading-3 {
     color: @dark-gray;
-    font-weight: bold;
   }
   &.heading-4 {
-    font-weight: bold;
+    font-weight: @gray;
+  }
+  &.heading-5 {
+    font-style: italic;
   }
   &.heading-6 {
     font-style: italic;
   }
   &.marker {
-    color: @light-blue !important;
+    color: @gray !important;
     font-weight: normal !important;
   }
 }
@@ -107,19 +109,19 @@
 // Syntax for critic markup
 .source.gfm > .critic.gfm {
   &.addition {
-    color: @light-green;
+    color: @green;
   }
   &.deletion {
-    color: @light-red;
+    color: @red;
   }
   &.substitution {
-    color: @light-orange;
+    color: @orange;
   }
   &.comment {
-    color: @light-blue;
+    color: @blue;
   }
   &.highlight {
-    color: @light-purple;
+    color: @purple;
   }
   .marker {
     color: @light-gray !important;
