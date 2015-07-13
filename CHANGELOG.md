@@ -2,6 +2,8 @@
 
 - Better indent
   * `z-index` property fixed
+- `.gfm`
+  * Mentions and support fixed
 
 ## 0.7.2
 
