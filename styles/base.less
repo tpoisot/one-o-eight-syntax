@@ -25,6 +25,9 @@ atom-text-editor, :host {
     color: @syntax-gutter-text-color;
 
     .line-number {
+
+      background-color: none !important;
+
       &.cursor-line {
         background-color: @syntax-cursor-line;
         color: @syntax-gutter-text-color-selected;
@@ -189,7 +192,7 @@ atom-text-editor::shadow .highlight.current-result ~ .highlight.selection .regio
 .punctuation {
   &.definition {
     &.comment {
-      color: @dark-gray;
+      color: @dark-gray !important;
     }
 
     &.string,

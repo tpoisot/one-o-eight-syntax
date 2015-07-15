@@ -1,3 +1,8 @@
+## 0.7.4
+
+- `.gfm`
+  * no border around `raw` code
+
 ## 0.7.3
 
 - Better indent
