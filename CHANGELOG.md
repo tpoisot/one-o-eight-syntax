@@ -1,4 +1,4 @@
-## 0.7.4
+## 0.8.0
 
 - `.gfm`
   * no border around `raw` code
