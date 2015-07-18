@@ -21,8 +21,26 @@
 
 }
 
-// Folders and files in the tree view
 
+// Git config
+.git-config {
+  .constant {
+    color: @orange;
+  }
+  .boolean {
+    color: @purple;
+  }
+  .name {
+    &.section {
+      color: @cyan;
+    }
+    &.subsection {
+      color: @green;
+    }
+  }
+}
+
+// Folders and files in the tree view
 .list-tree, .tree-view-directory{
   .status-modified {
     color: @syntax-color-modified !important;

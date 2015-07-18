@@ -1,3 +1,10 @@
+## 0.8.4
+
+- `gfm`
+  * Support characters and links
+- `vcs`
+  * `.git-config`
+
 ## 0.8.3
 
 - `json` and `yaml` are more similar
