@@ -10,12 +10,6 @@
 - General
   * Hyperlinks have a small border on the bottom
 
-[a](sdsds)
-
-[a][n]
-
-[n]: dfdffdf
-
 ## 0.8.0
 
 - `.gfm`
