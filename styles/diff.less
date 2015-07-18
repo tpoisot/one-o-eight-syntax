@@ -2,22 +2,29 @@
 
 .source .meta.diff {
   &.header {
-    color: @light-purple !important;
+    &.from-file {
+      color: @syntax-color-removed;
+    }
+    &.to-file {
+      color: @syntax-color-modified;
+    }
   }
   &.range {
     color: @very-light-gray !important;
   }
   &.line-number {
-    color: @dark-gray !important;
+    color: @very-dark-gray !important;
     font-weight: bold;
   }
 }
 
 .source .diff{
   &.deleted {
-    color: @light-red !important;
+    color: @syntax-color-removed !important;
+    text-decoration: line-through;
   }
   &.inserted {
-    color: @light-green !important;
+    color: @syntax-color-added !important;
+    text-decoration: underline;
   }
 }

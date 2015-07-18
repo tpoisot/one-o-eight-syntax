@@ -9,6 +9,8 @@
   * `raw` code is lighter
 - General
   * Hyperlinks have a small border on the bottom
+- `diff`
+  * Better highlights
 
 ## 0.8.0
 
