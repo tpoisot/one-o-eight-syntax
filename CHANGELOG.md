@@ -1,4 +1,8 @@
-## 0.8.1
+## 0.8.3
+
+- `json` and `yaml` are more similar
+
+## 0.8.2
 
 - `vcs`
   * fixed treeview color
