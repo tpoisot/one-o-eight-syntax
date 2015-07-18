@@ -4,28 +4,35 @@
     z-index: -100;
   }
   .git-line-added {
-    color: @light-green;
+    color: @syntax-color-added;
     &.cursor-line {
-      color: @green;
+      color: @syntax-color-added;
     }
   }
   .git-line-modified {
-    color: @light-blue;
+    color: @syntax-color-modified;
     &.cursor-line {
-      color: @blue;
+      color: @syntax-color-modified;
     }
   }
+  .git-line-removed {
+    border-bottom: 1px dotted @syntax-color-removed;
+  }
+
 }
+
+// Folders and files in the tree view
 
 .list-tree, .tree-view-directory{
   .status-modified {
-    color: @blue !important;
+    color: @syntax-color-modified !important;
   }
   .status-added {
-    color: @green !important;
+    color: @syntax-color-added !important;
   }
 }
 
-.list-tree li.list-nested-item.selected.status-modified > .list-item {
-  color: @blue !important;
+.list-tree li.list-nested-item.selected.status-modified > .list-item,
+.list-tree li.list-nested-item.status-modified > .list-item {
+  color: @syntax-color-modified !important;
 }

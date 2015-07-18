@@ -1,3 +1,21 @@
+## 0.8.1
+
+- `vcs`
+  * fixed treeview color
+  * uses `@syntax-color-...` internally
+  * added a line for `.git-line-removed`
+- `.gfm`
+  * mentions are lighter
+  * `raw` code is lighter
+- General
+  * Hyperlinks have a small border on the bottom
+
+[a](sdsds)
+
+[a][n]
+
+[n]: dfdffdf
+
 ## 0.8.0
 
 - `.gfm`
