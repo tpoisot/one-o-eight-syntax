@@ -1,7 +1,7 @@
 // These colors are specific to the theme. Do not use in a package!
 
 @writer-bg: hsl(0, 0%, 98%);
-@writer-fg: hsl(0, 0%, 10%);
+@writer-fg: hsl(0, 0%, 15%);
 
 @very-light-gray: mix(@writer-bg, @writer-fg, 90%);
 @light-gray: mix(@writer-bg, @writer-fg, 70%);
@@ -9,22 +9,22 @@
 @dark-gray: mix(@writer-bg, @writer-fg, 30%);
 @very-dark-gray: mix(@writer-bg, @writer-fg, 10%);
 
-@desaturate: 19%;
-@lighten: 10%;
-
-@L: 59%;
+@S: 74%;
+@L: 65%;
 
 // Base colors
-@orange: hsl(26, 75%, @L);
-@green: hsv(120, 75%, @L);
-@blue: hsv(195, 75%, @L);
-@purple: hsv(260, 40%, @L);
-@cyan: hsv(175, 75%, @L);
-@red: hsv(2, 65%, 60%);
+@orange: hsl(26, @S, @L);
+@green: hsv(120, @S, @L);
+@blue: hsv(195, @S, @L);
+@purple: hsv(260, @S, @L);
+@cyan: hsv(175, @S, @L);
+@red: hsv(2, @S, @L);
 
-@light-purple: lighten(desaturate(@purple, @desaturate), @lighten);
-@light-blue: lighten(desaturate(@blue, @desaturate), @lighten);
-@light-green: lighten(desaturate(@green, @desaturate), @lighten);
-@light-orange: lighten(desaturate(@orange, @desaturate), @lighten);
-@light-cyan: lighten(desaturate(@cyan, @desaturate), @lighten);
-@light-red: lighten(desaturate(@red, @desaturate), @lighten);
+@mix: 65%;
+
+@light-purple: mix(@purple, @writer-bg, @mix);
+@light-blue: mix(@blue, @writer-bg, @mix);
+@light-green: mix(@green, @writer-bg, @mix);
+@light-orange: mix(@orange, @writer-bg, @mix);
+@light-cyan: mix(@cyan, @writer-bg, @mix);
+@light-red: mix(@red, @writer-bg, @mix);
