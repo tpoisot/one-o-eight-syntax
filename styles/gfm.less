@@ -30,8 +30,8 @@
     font-size: italic;
   }
   &.marker {
-    color: @light-blue !important;
-    font-weight: bold !important;
+    color: @light-green !important;
+    font-weight: normal !important;
   }
 }
 
@@ -47,7 +47,7 @@
   }
   // List
   .list {
-    color: @light-purple;
+    color: @green;
   }
   // Quotes
   .quote {
@@ -65,7 +65,7 @@
   // Links
   .link {
     .entity {
-      color: @purple;
+      color: @green;
     }
     .underline {
       text-decoration: none;
@@ -76,11 +76,11 @@
   }
   // Support characters
   .support {
-    color: @orange;
+    color: @green;
   }
   // For references
   .mention {
-    color: @light-gray;
+    color: @light-blue;
   }
   .username {
     color: @green;
@@ -109,19 +109,19 @@
 // Syntax for critic markup
 .source.gfm > .critic.gfm {
   &.addition {
-    color: @green;
+    color: @syntax-color-added;
   }
   &.deletion {
-    color: @red;
+    color: @syntax-color-removed;
   }
   &.substitution {
-    color: @orange;
+    color: @syntax-color-renamed;
   }
   &.comment {
-    color: @blue;
+    color: @syntax-color-modified;
   }
   &.highlight {
-    color: @purple;
+    color: @orange;
   }
   .marker {
     color: @light-gray !important;
