@@ -1,3 +1,9 @@
+## 0.11.0
+
+- Pre `1.0` release
+- Colorscheme works on black background
+- More unified gfm theme
+
 ## 0.8.5
 
 - Color update
