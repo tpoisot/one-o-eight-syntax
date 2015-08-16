@@ -113,7 +113,7 @@ atom-text-editor::shadow .highlight.current-result ~ .highlight.selection .regio
 
 }
 
-.todo, .fixme, .changed, .xxx {
+.todo, .fixme, .changed, .xxx, .note {
   display: inline-block;
   font-weight: bold;
   background: none !important;
@@ -133,6 +133,10 @@ atom-text-editor::shadow .highlight.current-result ~ .highlight.selection .regio
 
 .xxx {
   color: @light-cyan !important;
+}
+
+.note {
+  color: @light-green !important;
 }
 
 .constant {
