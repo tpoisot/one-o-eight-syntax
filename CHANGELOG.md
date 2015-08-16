@@ -1,3 +1,7 @@
+## 0.11.1
+
+- Removed legacy parts of the less files
+
 ## 0.11.0
 
 - Pre `1.0` release
