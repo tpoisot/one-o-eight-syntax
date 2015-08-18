@@ -117,13 +117,13 @@ atom-text-editor::shadow .highlight.current-result ~ .highlight.selection .regio
 
 }
 
-.todo, .fixme, .changed, .xxx, .note {
-  // This acts on the appearance of TODO FIXME CHANGED XXX and NOTE in the comments
+.todo, .fixme, .changed, .xxx, .note, .hack {
+  // This acts on the appearance of TODO FIXME CHANGED XXX HACK and NOTE in the comments
   font-weight: bold;
 }
 
 .todo {
-  color: @light-orange !important;
+  color: @light-green !important;
 }
 
 .fixme {
@@ -139,7 +139,11 @@ atom-text-editor::shadow .highlight.current-result ~ .highlight.selection .regio
 }
 
 .note {
-  color: @light-green !important;
+  color: @light-orange !important;
+}
+
+.hack {
+  color: @light-purple !important;
 }
 
 .constant {
