@@ -117,33 +117,30 @@ atom-text-editor::shadow .highlight.current-result ~ .highlight.selection .regio
 
 }
 
-.todo, .fixme, .changed, .xxx, .note, .hack {
-  // This acts on the appearance of TODO FIXME CHANGED XXX HACK and NOTE in the comments
+.todo, .fixme, .changed, .xxx, .note, .hack, .idea, .review {
+  // Full support of language-todo
+  // TODO and FIXME ("action items") have same color
+  // CHANGED and REVIEW ("new or untested") have same color
+  // NOTE and IDEA ("for devs eyes only") have same color
+  // XXX and HACK have their own color
   font-weight: bold;
-}
-
-.todo {
-  color: @light-green !important;
-}
-
-.fixme {
-  color: @light-red !important;
-}
-
-.changed {
-  color: @light-blue !important;
-}
-
-.xxx {
   color: @light-cyan !important;
 }
 
-.note {
+.todo, .fixme {
+  color: @light-green !important;
+}
+
+.changed, .review {
+  color: @light-blue !important;
+}
+
+.note, .idea {
   color: @light-orange !important;
 }
 
 .hack {
-  color: @light-purple !important;
+  color: @light-red !important;
 }
 
 .constant {
