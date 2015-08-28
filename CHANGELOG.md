@@ -74,7 +74,7 @@
 - gfm `raw code` has a box around
 - bolder gfm table borders
 - better background and foreground
-- better curssor line color
+- better cursor line color
 - more visible selection
 - `---` highlighted in gfm
 
