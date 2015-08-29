@@ -1,0 +1,25 @@
+.todo, .fixme, .changed, .xxx, .note, .hack, .idea, .review {
+  // Full support of language-todo
+  // TODO and FIXME ("action items") have same color
+  // CHANGED and REVIEW ("new or untested") have same color
+  // NOTE and IDEA ("for devs eyes only") have same color
+  // XXX and HACK have their own color
+  font-weight: bold;
+  color: @light-cyan !important;
+}
+
+.todo, .fixme {
+  color: @light-green !important;
+}
+
+.changed, .review {
+  color: @light-blue !important;
+}
+
+.note, .idea {
+  color: @light-orange !important;
+}
+
+.hack {
+  color: @light-red !important;
+}
