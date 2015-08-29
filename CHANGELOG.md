@@ -1,3 +1,7 @@
+## 0.12.2
+
+- `.language.todo` is now "badge-style" (and in its own file)
+
 ## 0.11.1
 
 - Removed legacy parts of the less files
