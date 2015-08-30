@@ -1,6 +1,6 @@
 {
   "name": "writer-syntax",
-  "main": "lib/writer-syntax",
+  "main": "./lib/writer-syntax",
   "theme": "syntax",
   "version": "0.12.5",
   "description": "A multi-purpose theme, for prose and coding.",
