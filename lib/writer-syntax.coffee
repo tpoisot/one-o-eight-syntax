@@ -1,7 +1,7 @@
 module.exports =
   config:
     themeVariant:
-      description: 'Light or dark variant for the theme'
+      description: 'Light or dark variant for the theme. Not entirely functional.'
       default: "Light"
       type: 'string'
       enum: [
