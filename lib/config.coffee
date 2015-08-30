@@ -5,8 +5,6 @@ module.exports =
 
   apply: ->
 
-    atomWorkspace = document.querySelector('atom-workspace')
-
     ltheme = """
     // NOTE these colors have been auto-generated
     // edit the lib/config.coffee to change
@@ -18,18 +16,17 @@ module.exports =
     dtheme = """
     // NOTE these colors have been auto-generated
     // edit the lib/config.coffee to change
-    @writer-bg: hsl(0, 0%, 16%);
+    @writer-bg: hsl(0, 0%, 8%);
     @writer-fg: hsl(0, 0%, 86%);
 
     """
     updateColor = () ->
-      variant = atom.config.get "#{@packageName}.themeVariant"
-      alert(variant)
+      variant = atom.config.get "writer-syntax.themeVariant"
       path = "#{__dirname}/../styles/background.less"
       if variant is 'Dark'
-        fs.writeFileSync path, dtheme
+        fs.writeFile path, dtheme
       else
-        fs.writeFileSync path, ltheme
+        fs.writeFile path, ltheme
 
     # When starting
     updateColor()
