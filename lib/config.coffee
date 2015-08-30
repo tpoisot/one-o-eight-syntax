@@ -24,7 +24,6 @@ module.exports =
     """
     updateColor = () ->
       variant = atom.config.get('writer-syntax.themeVariant')
-      alert(variant)
       path = "#{__dirname}/../styles/background.less"
       if variant is 'Dark'
         fs.writeFileSync path, dtheme
