@@ -2,6 +2,7 @@ fs = require 'fs'
 path = require 'path'
 
 module.exports =
+
   apply: ->
 
     ltheme = """
@@ -10,7 +11,7 @@ module.exports =
     """
 
     dtheme = """
-    @writer-bg: hsl(0, 0%, 15%);
+    @writer-bg: hsl(0, 0%, 16%);
     @writer-fg: hsl(0, 0%, 86%);
     """
     updateColor = () ->
