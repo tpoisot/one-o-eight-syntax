@@ -5,14 +5,22 @@ module.exports =
 
   apply: ->
 
+    atomWorkspace = document.querySelector('atom-workspace')
+
     ltheme = """
+    // NOTE these colors have been auto-generated
+    // edit the lib/config.coffee to change
     @writer-bg: hsl(0, 0%, 96%);
     @writer-fg: hsl(0, 0%, 36%);
+
     """
 
     dtheme = """
+    // NOTE these colors have been auto-generated
+    // edit the lib/config.coffee to change
     @writer-bg: hsl(0, 0%, 16%);
     @writer-fg: hsl(0, 0%, 86%);
+
     """
     updateColor = () ->
       variant = atom.config.get('writer-syntax.themeVariant')

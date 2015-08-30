@@ -1,7 +1,6 @@
 module.exports =
 
   config:
-
     themeVariant:
       description: 'Light or dark variant for the theme'
       default: 'Light'
