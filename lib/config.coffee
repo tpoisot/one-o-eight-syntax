@@ -24,8 +24,10 @@ module.exports =
       variant = atom.config.get "writer-syntax.themeVariant"
       path = "#{__dirname}/../styles/background.less"
       if variant is 'Dark'
-        fs.writeFile path, dtheme
+        fs.unwatchFile path
+        fs.writeFileSync path, dtheme
       else
+        fs.unwatchFile path
         fs.writeFile path, ltheme
 
     # When starting
