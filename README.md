@@ -9,6 +9,7 @@
 - Support for `indent-guide-improved`
 - Support for `json`
 - Support for `python`
+- Support for `tasks`
 
 ## Switch between Light and Dark
 
