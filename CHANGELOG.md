@@ -1,3 +1,11 @@
+## 0.14
+
+- Support for the *Tasks* package
+
+## 0.13
+
+- Black background support
+
 ## 0.12.2
 
 - `.language.todo` is now "badge-style" (and in its own file)
