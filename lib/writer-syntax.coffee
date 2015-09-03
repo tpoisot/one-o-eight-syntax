@@ -1,13 +1,9 @@
 module.exports =
   config:
-    themeVariant:
-      description: 'Light or dark variant for the theme. Not entirely functional.'
-      default: "Light"
-      type: 'string'
-      enum: [
-        "Light",
-        "Dark"
-      ]
+    useDark:
+      description: 'Use dark theme.'
+      default: false
+      type: 'boolean'
   activate: (state) ->
     atom.themes.onDidChangeActiveThemes ->
       Config = require './config'
