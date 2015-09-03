@@ -21,15 +21,16 @@ module.exports =
 
     """
     updateColor = () ->
-      useDark = atom.config.get "writer-syntax.useDark"
+      useLightTheme = atom.config.get "writer-syntax.useLightTheme"
+      alert(useLightTheme)
       path = "#{__dirname}/../styles/background.less"
-      if useDark
-        fs.writeFileSync path, dtheme
-      else
+      if useLightTheme
         fs.writeFileSync path, ltheme
+      else
+        fs.writeFileSync path, dtheme
 
     # When starting
     updateColor()
 
     # When config changes
-    atom.config.onDidChange 'writer-syntax.useDark', updateColor()
+    atom.config.onDidChange 'writer-syntax.useLightTheme', updateColor

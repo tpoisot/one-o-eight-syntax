@@ -1,8 +1,8 @@
 module.exports =
   config:
-    useDark:
-      description: 'Use dark theme.'
-      default: false
+    useLightTheme:
+      description: 'Use default (light) theme.'
+      default: true
       type: 'boolean'
   activate: (state) ->
     atom.themes.onDidChangeActiveThemes ->
