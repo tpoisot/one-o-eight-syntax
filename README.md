@@ -13,13 +13,8 @@
 
 ## Switch between Light and Dark
 
-Although there *is* an option to switch, it seems to be prone to breakage. The
-most efficient way is to edit your config file:
-
-``` cson
-"writer-syntax":
-  themeVariant: "Light" // or Dark
-```
+There is an option (in Settings, Themes) to use the Dark variant of the theme.
+It requires to reload the current window.
 
 ## Screenshots
 
