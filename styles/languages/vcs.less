@@ -1,22 +1,21 @@
 .gutter {
-  .cursor-line {
-    background-color: none !important;
-    z-index: -100;
-  }
+
   .git-line-added {
     color: @syntax-color-added;
     &.cursor-line {
       color: @syntax-color-added;
     }
   }
+
   .git-line-modified {
     color: @syntax-color-modified;
     &.cursor-line {
       color: @syntax-color-modified;
     }
   }
+
   .git-line-removed {
-    border-bottom: 1px solid @syntax-color-removed;
+    border-bottom: 1px dotted @syntax-color-removed;
   }
 
 }
