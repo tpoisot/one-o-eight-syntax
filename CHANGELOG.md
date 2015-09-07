@@ -1,3 +1,11 @@
+## 0.16
+
+- Coffeescript, additional theme wide support for meta and braces
+
+## 0.15
+
+- Black background option functional
+
 ## 0.14
 
 - Support for the *Tasks* package

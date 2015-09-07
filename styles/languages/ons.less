@@ -1,4 +1,4 @@
-.source.json, .source.yaml {
+.source.coffee, .source.json, .source.yaml {
   .punctuation {
     color: @light-gray !important;
   }
@@ -16,5 +16,11 @@
   }
   .string.unquoted {
     color: @blue;
+  }
+}
+
+.source.coffee {
+  .assignment {
+    color: @purple !important;
   }
 }
