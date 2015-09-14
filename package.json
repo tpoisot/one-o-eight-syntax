@@ -2,7 +2,7 @@
   "name": "writer-syntax",
   "main": "./lib/writer-syntax",
   "theme": "syntax",
-  "version": "0.16.2",
+  "version": "0.16.3",
   "description": "A multi-purpose theme, for prose and coding. Comes in Light and Dark variants.",
   "license": "MIT",
   "repository": "https://github.com/tpoisot/writer-syntax",
