@@ -1,3 +1,7 @@
+## 0.17
+
+- spell check syntax
+
 ## 0.16
 
 - Coffeescript, additional theme wide support for meta and braces
