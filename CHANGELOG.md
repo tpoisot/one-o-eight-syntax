@@ -1,3 +1,7 @@
+## 0.18
+
+- support for `language-markdown`
+
 ## 0.17
 
 - spell check syntax
