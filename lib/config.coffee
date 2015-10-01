@@ -8,16 +8,16 @@ module.exports =
     ltheme = """
     // NOTE these colors have been auto-generated
     // edit the lib/config.coffee to change
-    @writer-bg: hsl(0, 0%, 98%);
-    @writer-fg: hsl(0, 0%, 34%);
+    @writer-bg: hsl(240, 3%, 97%);
+    @writer-fg: hsl(240, 3%, 14%);
 
     """
 
     dtheme = """
     // NOTE these colors have been auto-generated
     // edit the lib/config.coffee to change
-    @writer-bg: hsl(0, 0%, 9%);
-    @writer-fg: hsl(0, 0%, 90%);
+    @writer-bg: hsl(240, 3%, 14%);
+    @writer-fg: hsl(240, 3%, 97%);
 
     """
     updateColor = () ->
