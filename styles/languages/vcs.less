@@ -1,25 +1,14 @@
 .gutter {
-
-  .git-line-added {
-    color: @syntax-color-added;
-    &.cursor-line {
-      color: @syntax-color-added;
-    }
-  }
-
-  .git-line-modified {
-    color: @syntax-color-modified;
-    &.cursor-line {
-      color: @syntax-color-modified;
-    }
-  }
-
   .git-line-removed {
-    border-bottom: 1px dashed @syntax-color-removed;
+    &::before {
+      border-left-color: @syntax-color-removed !important;
+    }
   }
-
+  .line-number.git-line-added, .line-number.git-line-modified {
+    border-left-width: 2px !important;
+    padding-left: calc(0.5em - 2px) !important;
+  }
 }
-
 
 // Git config
 .git-config {

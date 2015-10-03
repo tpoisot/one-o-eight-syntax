@@ -16,10 +16,6 @@ atom-text-editor, :host {
     color: @syntax-invisible-character-color;
   }
 
-  .cursor-line {
-    background-color: @syntax-cursor-line;
-  }
-
   .gutter {
     background-color: @syntax-gutter-background-color;
     color: @syntax-gutter-text-color;
@@ -29,8 +25,8 @@ atom-text-editor, :host {
       background-color: none !important;
 
       &.cursor-line {
-        background-color: @syntax-cursor-line;
         color: @syntax-gutter-text-color-selected;
+        font-weight: bold;
       }
 
       &.cursor-line-no-selection {
