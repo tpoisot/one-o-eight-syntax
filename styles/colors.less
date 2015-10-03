@@ -1,7 +1,9 @@
 // These colors are specific to the theme. Do not use in a package!
 
-@black: rgb(35,35,35);
-@white: rgb(250,250,250);
+@bv: 35;
+@wv: 248;
+@black: rgb(@bv, @bv, @bv);
+@white: rgb(@wv, @wv, @wv);
 
 // NOTE background.less should not be edited manually
 @import "background";
@@ -14,15 +16,15 @@
 @very-dark-gray:  mix(@writer-bg, @writer-fg, 10%);
 
 // High colors
-@s1: rgb(99,145,86);
+@s1: rgb(75,133,84);
 @s3: rgb(79,110,143);
-@s5: rgb(124,109,159);
+@s5: rgb(102,85,139);
 
 @s2: mix(@s1, @s3, 50%);
 @s4: mix(@s3, @s5, 50%);
 
 // Low colors
-@mix: 80%;
+@mix: 90%;
 @l1: mix(@s1, @writer-bg, @mix);
 @l2: mix(@s2, @writer-bg, @mix);
 @l3: mix(@s3, @writer-bg, @mix);
