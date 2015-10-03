@@ -1,3 +1,7 @@
+## 0.19
+
+- new palette
+
 ## 0.18
 
 - support for `language-markdown`
