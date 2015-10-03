@@ -1,71 +1,71 @@
-.source.gfm .markup {
+.source.gfm {
+
   -webkit-font-smoothing: auto;
-  &.heading {
-    color: @light-gray;
-    &.space, &.marker {
-      text-decoration: none !important;
-      display: inline-block;
-      font-style: normal !important;
+
+  // General thingies
+  .markup {
+    // Typo
+    &.italic {
+      font-style: italic;
+      color: @l3;
+    }
+    &.bold {
+      font-weight: bold;
+      color: @s3;
+    }
+
+    // Headings
+    &.heading {
+      color: @very-dark-gray;
+      font-weight: bold;
+      &.space, &.marker {
+        font-weight: normal;
+      }
+      &.marker {
+        color: @s1;
+      }
     }
   }
-  &.heading-1 {
-    color: @very-dark-gray;
-    font-weight: bold;
-  }
-  &.heading-2 {
-    color: @dark-gray;
-    font-weight: bold;
-  }
-  &.heading-3 {
-    color: @dark-gray;
-  }
-  &.heading-4 {
-    color: @gray;
-  }
-  &.heading-5 {
-    color: @light-gray;
-  }
-  &.heading-6 {
-    color: @light-gray;
-    font-size: italic;
-  }
-  &.marker {
-    color: @light-green !important;
-    font-weight: normal !important;
-  }
-}
 
-.source.gfm {
-  // Bold and italic
-  .bold, .italic {
-    color: @syntax-text-color;
-  }
   // Rules
   .hr {
     font-weight: bold;
     color: @light-gray;
   }
-  // List
+
+  // Lists, etc.
   .list {
-    color: @green;
+    color: @s2;
   }
+
   // Quotes
   .quote {
     color: @dark-gray;
     &.support {
       font-weight: bold;
+      color: @s2;
     }
   }
+
+  // References and mentions
+  .mention {
+    color: @gray;
+  }
+  .username {
+    color: @s5;
+  }
+
   // Raw code
   .raw {
     color: @dark-gray;
     border-radius: 3px;
     background-color: @very-light-gray;
   }
+
   // Links
   .link {
     .entity {
-      color: @green;
+      color: @l5;
     }
     .underline {
       text-decoration: none;
@@ -76,21 +76,8 @@
       text-decoration: none !important;
     }
   }
-  // Support characters
-  .support {
-    color: @green;
-  }
-  // For references
-  .mention {
-    color: @gray;
-  }
-  .username {
-    color: @orange;
-  }
-}
 
-// Syntax for tables
-.source.gfm {
+  // Tables
   .table.gfm {
     .border {
       color: @gray;
@@ -106,9 +93,8 @@
       color: @light-gray;
     }
   }
+
 }
 
 // Syntax for critic markup
-.source.gfm > .critic.gfm {
-  @import "criticmark.less";
-}
+@import "criticmark.less";

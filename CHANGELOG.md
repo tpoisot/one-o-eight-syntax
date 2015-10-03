@@ -1,6 +1,6 @@
 ## 0.19
 
-- new palette
+- brand new palette, pre 1.0
 
 ## 0.18
 
