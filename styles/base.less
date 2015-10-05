@@ -1,6 +1,8 @@
 @import "syntax-variables";
 
 atom-text-editor, :host {
+  -webkit-text-stroke: 0.1px 0.1px fadeout(@writer-bg, 50%);
+  text-shadow: 0.2px 0.2px fadeout(@very-light-gray, 50%);
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
