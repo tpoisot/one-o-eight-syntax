@@ -1,5 +1,88 @@
 .md {
 
-  @import "criticmark.less";
+  .heading {
+    color: @very-dark-gray;
+    font-weight: bold;
+    .punctuation {
+      font-weight: normal !important;
+      color: @s1 !important;
+    }
+  }
+
+  .list, .quote {
+    .punctuation {
+      color: @s1 !important;
+    }
+  }
+
+  .table {
+    color: @writer-fg;
+    .alignment {
+      color: @s1 !important;
+      font-weight: bold;
+    }
+  }
+
+  .emphasis {
+    color: @s4;
+    &.italic {
+      font-style: italic;
+    }
+    &.bold {
+      font-weight: bold;
+    }
+  }
+
+  .reference {
+    color: @s3 !important;
+    font-weight: bold;
+  }
+
+  .fenced {
+    color: @very-dark-gray;
+  }
+
+  .raw {
+    color: @s2;
+  }
+
+  .link {
+    .text, .string {
+      color: @s3 !important;
+    }
+    .label, .destination {
+      color: @l3 !important;
+      font-weight: normal !important;
+    }
+  }
+
+  .image {
+    .punctuation {
+      &::first-letter {
+        color: @s1 !important;
+        // FIXME this is not working at the moment
+      }
+    }
+  }
+
+  .critic {
+
+    &.changed {
+      background: none !important;
+      color: @syntax-color-modified !important;
+    }
+
+    &.inserted {
+      color: @syntax-color-added !important;
+    }
+
+    &.deleted {
+      color: @syntax-color-removed !important;
+    }
+
+    &.comment {
+      color: @syntax-color-renamed !important;
+    }
+  }
 
 }
