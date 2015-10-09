@@ -1,6 +1,6 @@
 // These colors are specific to the theme. Do not use in a package!
 
-@bv: 45;
+@bv: 40;
 @wv: 248;
 @black: rgb(@bv, @bv, @bv);
 @white: rgb(@wv, @wv, @wv);
@@ -16,12 +16,12 @@
 @very-dark-gray:  mix(@writer-bg, @writer-fg, 10%);
 
 // High colors
-@s1: rgb(121,141,89);
-@s3: rgb(93,135,151);
-@s5: rgb(148,86,115);
+@s1: rgb(87,138,64);
+@s3: rgb(62,117,140);
+@s5: rgb(135,102,143);
 
-@s2: mix(@s1, @s3, 50%);
-@s4: mix(@s3, @s5, 50%);
+@s2: lighten(mix(@s1, @s3, 50%), 2%);
+@s4: lighten(mix(@s3, @s5, 50%), 2%);
 
 // Low colors
 
