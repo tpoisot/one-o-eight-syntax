@@ -75,11 +75,14 @@ atom-text-editor[mini] .scroll-view,
 
 // Comments
 .punctuation{
-  color: @very-light-gray !important;
+  color: @light-gray;
 }
 
 .comment {
-  color: @dark-gray;
+  color: @gray;
+  &.punctuation {
+    color: @very-light-gray;
+  }
 }
 
 .meta{
