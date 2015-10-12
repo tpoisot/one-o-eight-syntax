@@ -1,10 +1,9 @@
-# writer-syntax theme
+# One-O-Eight
 
-*Writer* is a theme designed to be easy on the eyes, especially for long periods
-of writing either code or prose. The main color palette is designed around
-three colors (green, blue, purple), and there are a number of light variants
-and intermediate colors. It results in a very uniform and smooth color theme.
-There are light and dark variants, accessible from the settings.
+One-O-Eight is a mutli-schemes syntax. It comes with two backgrounds (white on
+black or black on white), and (as of now) three foreground schemes: *Bright*,
+*Viridis*, and *Calm*. All schemes are based on five colours; the name
+one-o-eight comes from 108°, the internal angles in a pentagon.
 
 ## Main features
 
@@ -17,10 +16,10 @@ There are light and dark variants, accessible from the settings.
 - Support for `python`
 - Support for `tasks`
 
-## Switch between Light and Dark
+## Switch between variants
 
-There is an option (in Settings, Themes) to use the Dark variant of the theme.
-It requires to reload the current window.
+There are options in the Theme settings to change the background and foreground
+themes.
 
 ## Screenshots
 
