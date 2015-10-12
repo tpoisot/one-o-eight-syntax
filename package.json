@@ -1,5 +1,5 @@
 {
-  "name": "writer-syntax",
+  "name": "one-o-eight-syntax",
   "main": "./lib/writer-syntax",
   "theme": "syntax",
   "version": "0.20.0",
