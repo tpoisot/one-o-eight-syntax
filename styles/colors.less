@@ -5,7 +5,7 @@
 @black: rgb(@bv, @bv, @bv);
 @white: rgb(@wv, @wv, @wv);
 
-// NOTE background.less should not be edited manually
+// NOTE Auto-generated
 @import "background";
 //
 
@@ -15,16 +15,11 @@
 @dark-gray:       mix(@writer-bg, @writer-fg, 30%);
 @very-dark-gray:  mix(@writer-bg, @writer-fg, 10%);
 
-// High colors
-@s1: rgb(53,144,90);
-@s3: rgb(59,120,145);
-@s5: rgb(135,62,97);
+// NOTE Auto-generated
+@import "foreground";
+//
 
-@s2: lighten(mix(@s1, @s3, 50%), 2%);
-@s4: lighten(mix(@s3, @s5, 50%), 2%);
-
-// Low colors
-
+// Low colors (from foreground)
 @mix: 85%;
 
 @l1: mix(@s1, @writer-bg, @mix);
