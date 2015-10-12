@@ -7,12 +7,11 @@ module.exports =
 
     updateBackground = () ->
       backgroundVariant = atom.config.get "writer-syntax.backgroundVariant"
-      console.log backgroundVariant
       path = "#{__dirname}/../styles/background.less"
-      if foregroundVariant is 'Light'
-        bgfile = fs.readFileSync "#{__dirname}/../styles/colorschemes/onwhite.less"
+      if backgroundVariant is 'Light'
+        bgfile = fs.readFileSync "#{__dirname}/../styles/colorschemes/onwhite.less" 'utf8'
       else
-        bgfile = fs.readFileSync "#{__dirname}/../styles/colorschemes/onblack.less"
+        bgfile = fs.readFileSync "#{__dirname}/../styles/colorschemes/onblack.less" 'utf8'
       fs.writeFileSync path, bgfile
 
     updateForeground = () ->
@@ -20,9 +19,9 @@ module.exports =
       console.log foregroundVariant
       path = "#{__dirname}/../styles/foreground.less"
       if foregroundVariant is 'Bright'
-        fgfile = fs.readFileSync "#{__dirname}/../styles/colorschemes/bright.less"
+        fgfile = fs.readFileSync "#{__dirname}/../styles/colorschemes/bright.less" 'utf8'
       else
-        fgfile = fs.readFileSync "#{__dirname}/../styles/colorschemes/calm.less"
+        fgfile = fs.readFileSync "#{__dirname}/../styles/colorschemes/calm.less" 'utf8'
       fs.writeFileSync path, fgfile
 
     # When starting
