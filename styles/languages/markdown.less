@@ -5,26 +5,26 @@
     font-weight: bold;
     .punctuation {
       font-weight: normal !important;
-      color: @s1 !important;
+      color: @s3 !important;
     }
   }
 
   .list, .quote {
     .punctuation {
-      color: @s1 !important;
+      color: @l3 !important;
     }
   }
 
   .table {
     color: @writer-fg;
     .alignment {
-      color: @s1 !important;
+      color: @l3 !important;
       font-weight: bold;
     }
   }
 
   .emphasis {
-    color: @s4;
+    color: @s2;
     &.italic {
       font-style: italic;
     }
@@ -34,7 +34,7 @@
   }
 
   .reference {
-    color: @s3 !important;
+    color: @s4 !important;
     font-weight: bold;
   }
 
@@ -43,15 +43,15 @@
   }
 
   .raw {
-    color: @s2;
+    color: @s5;
   }
 
   .link {
     .text, .string {
-      color: @s3 !important;
+      color: @s1 !important;
     }
     .label, .destination {
-      color: @l3 !important;
+      color: @l1 !important;
       font-weight: normal !important;
     }
   }
@@ -59,7 +59,7 @@
   .image {
     .punctuation {
       &::first-letter {
-        color: @s1 !important;
+        color: @s3 !important;
         // FIXME this is not working at the moment
       }
     }

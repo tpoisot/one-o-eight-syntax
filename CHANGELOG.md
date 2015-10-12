@@ -1,3 +1,7 @@
+## 0.20
+
+- can use foreground as well as background variants
+
 ## 0.19
 
 - brand new palette, pre 1.0

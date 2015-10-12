@@ -5,29 +5,29 @@ module.exports =
 
   apply: ->
 
-    updateBackground = () ->
-      backgroundVariant = atom.config.get "writer-syntax.backgroundVariant"
-      path = "#{__dirname}/../styles/background.less"
-      if backgroundVariant is 'Light'
-        bgfile = fs.readFileSync "#{__dirname}/../styles/colorschemes/onwhite.less" 'utf8'
+    updateColor = () ->
+      # Step 1 - background
+      background = atom.config.get "writer-syntax.backgroundVariant"
+      background_path = "#{__dirname}/../styles/background.less"
+      background_content = ""
+      if background is 'Light'
+        background_content = fs.readFileSync "#{__dirname}/../styles/colorschemes/onwhite.less", "utf8"
       else
-        bgfile = fs.readFileSync "#{__dirname}/../styles/colorschemes/onblack.less" 'utf8'
-      fs.writeFileSync path, bgfile
-
-    updateForeground = () ->
-      foregroundVariant = atom.config.get "writer-syntax.foregroundVariant"
-      console.log foregroundVariant
-      path = "#{__dirname}/../styles/foreground.less"
-      if foregroundVariant is 'Bright'
-        fgfile = fs.readFileSync "#{__dirname}/../styles/colorschemes/bright.less" 'utf8'
+        background_content = fs.readFileSync "#{__dirname}/../styles/colorschemes/onblack.less", "utf8"
+      fs.writeFileSync background_path, background_content
+      # Step 2 - foreground
+      foreground = atom.config.get "writer-syntax.foregroundVariant"
+      foreground_path = "#{__dirname}/../styles/foreground.less"
+      foreground_content = ""
+      if foreground is 'Bright'
+        foreground_content = fs.readFileSync "#{__dirname}/../styles/colorschemes/bright.less", "utf8"
       else
-        fgfile = fs.readFileSync "#{__dirname}/../styles/colorschemes/calm.less" 'utf8'
-      fs.writeFileSync path, fgfile
+        foreground_content = fs.readFileSync "#{__dirname}/../styles/colorschemes/calm.less", "utf8"
+      fs.writeFileSync foreground_path, foreground_content
 
     # When starting
-    updateBackground()
-    updateForeground()
+    updateColor()
 
     # When config changes
-    atom.config.onDidChange 'writer-syntax.backgroundVariant', updateBackground
-    atom.config.onDidChange 'writer-syntax.foregroundVariant', updateForeground
+    atom.config.onDidChange 'writer-syntax.backgroundVariant', updateColor
+    atom.config.onDidChange 'writer-syntax.foregroundVariant', updateColor
