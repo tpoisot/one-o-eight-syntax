@@ -94,35 +94,34 @@ atom-text-editor[mini] .scroll-view,
 }
 
 .string{
-  color: @s1;
-}
-
-.constant{
-  color: @l1;
-  &.numeric {
-    color: @l4;
-  }
-}
-
-.storage{
-  color: @l5;
-}
-
-.entity{
   color: @s3;
 }
 
-.keyword{
-  color: @s5;
+.keyword {
+  color: @s2;
   &.operator {
     color: @dark-gray;
   }
+  &.unit {
+    color: @l5;
+  }
+}
+
+.entity {
+  color: @l1;
+}
+
+.constant{
+  color: @l4;
+}
+
+.storage{
+  color: @s5;
 }
 
 .variable{
-  color: @l2;
-}
-
-.support{
-  color: @s3;
+  color: @l3;
+  &.interpolation {
+    font-weight: bold;
+  }
 }
