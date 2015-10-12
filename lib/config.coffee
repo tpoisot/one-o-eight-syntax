@@ -7,14 +7,14 @@ module.exports =
 
     updateColor = () ->
       # Step 1 - background
-      background = atom.config.get "writer-syntax.backgroundVariant"
+      background = atom.config.get "one-o-eight-syntax.backgroundVariant"
       background_path = "#{__dirname}/../styles/background.less"
       background_content = ""
       background_file = "#{__dirname}/../styles/colorschemes/bg_" + background + ".less"
       background_content = fs.readFileSync background_file, "utf8"
       fs.writeFileSync background_path, background_content
       # Step 2 - foreground
-      foreground = atom.config.get "writer-syntax.foregroundVariant"
+      foreground = atom.config.get "one-o-eight-syntax.foregroundVariant"
       foreground_path = "#{__dirname}/../styles/foreground.less"
       foreground_content = ""
       foreground_file = "#{__dirname}/../styles/colorschemes/fg_" + foreground + ".less"
@@ -25,5 +25,5 @@ module.exports =
     updateColor()
 
     # When config changes
-    atom.config.onDidChange 'writer-syntax.backgroundVariant', updateColor
-    atom.config.onDidChange 'writer-syntax.foregroundVariant', updateColor
+    atom.config.onDidChange 'one-o-eight-syntax.backgroundVariant', updateColor
+    atom.config.onDidChange 'one-o-eight-syntax.foregroundVariant', updateColor

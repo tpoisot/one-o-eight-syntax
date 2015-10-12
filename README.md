@@ -16,10 +16,18 @@ one-o-eight comes from 108°, the internal angles in a pentagon.
 - Support for `python`
 - Support for `tasks`
 
-## Switch between variants
+## Variants overview
 
-There are options in the Theme settings to change the background and foreground
-themes.
+All screenshots use the free [Hack](https://github.com/chrissimpkins/Hack) font
+at 15pt, which is *great*.
+
+### Bright on Light (default)
+
+![b-l](https://github.com/tpoisot/writer-syntax/raw/master/img/Light-Bright.png)
+
+### Bright on Dark
+
+![b-d](https://github.com/tpoisot/writer-syntax/raw/master/img/Dark-Bright.png)
 
 ## Screenshots
 
