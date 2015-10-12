@@ -19,7 +19,8 @@ one-o-eight comes from 108°, the internal angles in a pentagon.
 ## Variants overview
 
 All screenshots use the free [Hack](https://github.com/chrissimpkins/Hack) font
-at 15pt, which is *great*.
+at 15pt, which is *great*. All variants use a palette with five colors, and each
+color has a lighter variant.
 
 ### Bright on Light (default)
 
@@ -29,19 +30,14 @@ at 15pt, which is *great*.
 
 ![b-d](https://github.com/tpoisot/writer-syntax/raw/master/img/Dark-Bright.png)
 
-## Screenshots
+### Viridis on Light
 
-All screenshots use the free [Hack](https://github.com/chrissimpkins/Hack) font
-at 15pt, which is *great*.
+![v-l](https://github.com/tpoisot/writer-syntax/raw/master/img/Light-Viridis.png)
 
-**Markdown**
+### Calm on Light
 
-![GFM](https://github.com/tpoisot/writer-syntax/raw/master/img/writer-gfm.png)
+![c-l](https://github.com/tpoisot/writer-syntax/raw/master/img/Light-Calm.png)
 
-**JSON**
+### Calm on Dark
 
-![json](https://github.com/tpoisot/writer-syntax/raw/master/img/writer-json.png)
-
-**Indentation**
-
-![indent](https://github.com/tpoisot/writer-syntax/raw/master/img/writer-indent.png)
+![c-d](https://github.com/tpoisot/writer-syntax/raw/master/img/Dark-Calm.png)
