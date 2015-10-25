@@ -3,10 +3,10 @@
 .source .meta.diff {
   &.header {
     &.from-file {
-      color: @syntax-color-removed;
+      .ooe-changed;
     }
     &.to-file {
-      color: @syntax-color-modified;
+      .ooe-renamed;
     }
   }
   &.range {
@@ -20,11 +20,9 @@
 
 .source .diff{
   &.deleted {
-    color: @syntax-color-removed !important;
-    text-decoration: line-through;
+    .ooe-removed;
   }
   &.inserted {
-    color: @syntax-color-added !important;
-    text-decoration: underline;
+    .ooe-added;
   }
 }

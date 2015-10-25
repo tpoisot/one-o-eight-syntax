@@ -68,28 +68,23 @@
   .critic {
 
     &.highlight {
-      background: fadeout(@s4, 90%) !important;
-      color: @s4 !important;
+      .ooe-highlighted;
     }
 
     &.inserted {
-      color: @syntax-color-added !important;
-      background-color: fadeout(@syntax-color-added, 90%);
+      .ooe-added;
     }
 
     &.deleted {
-      color: @syntax-color-removed !important;
-      background-color: fadeout(@syntax-color-removed, 90%);
+      .ooe-removed;
     }
 
     &.comment {
-      color: @syntax-color-renamed !important;
-      background-color: fadeout(@syntax-color-renamed, 90%);
+      .ooe-renamed;
     }
 
     &.substitution {
-      color: @syntax-color-modified !important;
-      background-color: fadeout(@syntax-color-modified, 90%);
+      .ooe-changed;
     }
   }
 
