@@ -11,6 +11,7 @@
 
   .list, .quote {
     .punctuation {
+      // FIXME This also colors italics, ...
       color: @l3 !important;
     }
   }
@@ -66,21 +67,29 @@
 
   .critic {
 
-    &.changed {
-      background: none !important;
-      color: @syntax-color-modified !important;
+    &.highlight {
+      background: fadeout(@s4, 90%) !important;
+      color: @s4 !important;
     }
 
     &.inserted {
       color: @syntax-color-added !important;
+      background-color: fadeout(@syntax-color-added, 90%);
     }
 
     &.deleted {
       color: @syntax-color-removed !important;
+      background-color: fadeout(@syntax-color-removed, 90%);
     }
 
     &.comment {
       color: @syntax-color-renamed !important;
+      background-color: fadeout(@syntax-color-renamed, 90%);
+    }
+
+    &.substitution {
+      color: @syntax-color-modified !important;
+      background-color: fadeout(@syntax-color-modified, 90%);
     }
   }
 
