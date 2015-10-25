@@ -18,7 +18,8 @@ module.exports =
         'Bright',
         'Calm',
         'Viridis',
-        'D3'
+        'D3',
+        'Brewer'
       ]
   activate: (state) ->
     console.log "Activate"
