@@ -1,12 +1,18 @@
 .gutter {
   .git-line-removed {
+    z-index: 90000;
     &::before {
       border-left-color: @syntax-color-removed !important;
+      z-index: 100000;
     }
   }
-  .line-number.git-line-added, .line-number.git-line-modified {
-    border-left-width: 2px !important;
-    padding-left: calc(0.5em - 2px) !important;
+
+  .line-number.git-line-added {
+    color: @syntax-color-added;
+  }
+
+  .line-number.git-line-modified {
+    color: @syntax-color-modified;
   }
 }
 
