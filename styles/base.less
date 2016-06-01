@@ -19,16 +19,13 @@ atom-text-editor, :host {
   }
 
   .gutter {
-    background-color: @syntax-gutter-background-color;
+    //background-color: @syntax-gutter-background-color;
     color: @syntax-gutter-text-color;
 
     .line-number {
 
-      background-color: mix(@writer-bg, @writer-fg, 98%);
-
       &.cursor-line {
         color: @syntax-gutter-text-color-selected;
-        font-weight: bold;
       }
 
       &.cursor-line-no-selection {
