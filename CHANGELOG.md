@@ -1,3 +1,7 @@
+## 0.22
+
+- markdown preview
+
 ## 0.20
 
 - can use foreground as well as background variants

@@ -15,6 +15,7 @@ one-o-eight comes from 108°, the internal angles in a pentagon.
 - Support for `json`, `cson`
 - Support for `python`
 - Support for `tasks`
+- Improved markdown preview
 
 ## Variants overview
 

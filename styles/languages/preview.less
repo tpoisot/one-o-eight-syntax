@@ -1,0 +1,21 @@
+.markdown-preview {
+  margin: 0px auto;
+  max-width: 800px;
+  padding: 80px !important;
+  background-color: white;
+  h2, h3, h4, h5, h6 {
+    color: @light-gray !important;
+  }
+  h1 {
+    text-align: center;
+    color: @dark-gray !important;
+  }
+  a {
+    border-bottom: 2px solid @l2;
+    &:hover {
+      text-decoration: none;
+      border-bottom: 2px solid @s2;
+      background-color: fadeout(@s2, 80%);
+    }
+  }
+}
