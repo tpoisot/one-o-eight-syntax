@@ -1,11 +1,16 @@
 .md {
 
+  .hr {
+    color: @s5;
+    font-weight: bold;
+  }
+
   .heading {
-    color: @very-dark-gray;
+    color: @dark-gray;
     font-weight: bold;
     .punctuation {
       font-weight: normal !important;
-      color: @s3 !important;
+      color: @light-gray !important;
     }
   }
 
@@ -35,11 +40,16 @@
   }
 
   .reference {
-    color: @s4 !important;
+    color: @l2 !important;
+    font-weight: bold;
   }
 
   .fenced {
     color: @very-dark-gray;
+    .language {
+      color: @light-gray;
+      font-style: italic;
+    }
   }
 
   .raw {
@@ -51,7 +61,7 @@
       color: @s1 !important;
     }
     .label, .destination {
-      color: @l1 !important;
+      color: @l3 !important;
       font-weight: normal !important;
     }
   }
