@@ -6,26 +6,26 @@
   }
 
   .heading {
-    color: @dark-gray;
+    color: @very-dark-gray;
     font-weight: bold;
     .punctuation {
       font-weight: normal !important;
-      color: @light-gray !important;
+      color: @l2 !important;
     }
   }
 
   .list, .quote {
     .punctuation {
-      // FIXME This also colors italics, ...
-      color: @l3 !important;
+      color: @l2 !important;
+      font-weight: bold;
     }
   }
 
   .table {
-    color: @writer-fg;
-    .alignment {
-      color: @l3 !important;
-      font-weight: bold;
+    color: @dark-gray !important;
+    .alignment, .storage, .punctuation {
+      color: @l2!important;
+      font-weight: normal;
     }
   }
 
@@ -39,10 +39,6 @@
     }
   }
 
-  .reference {
-    color: @l2 !important;
-  }
-
   .fenced {
     color: @very-dark-gray;
     .language {
@@ -52,24 +48,27 @@
   }
 
   .raw {
-    color: @s5;
+    color: @l5;
   }
 
   .link {
     .text, .string {
-      color: @s1 !important;
+      color: @s4 !important;
     }
-    .label, .destination {
-      color: @l3 !important;
+  }
+
+  .label, .destination {
+    .link {
+      color: @dark-gray !important;
       font-weight: normal !important;
     }
   }
 
-  .image {
-    .punctuation {
-      &::first-letter {
-        color: @s3 !important;
-        // FIXME this is not working at the moment
+  // TODO This is not working right now
+  .image{
+    .punctuation{
+      &::first-letter{
+        color: @s2 !important;
       }
     }
   }
