@@ -16,9 +16,7 @@ module.exports =
       default: 'Bright'
       enum: [
         'Bright',
-        'Calm',
-        'MDN',
-        'Neo'
+        'Calm'
       ]
   activate: (state) ->
     console.log "Activate"
