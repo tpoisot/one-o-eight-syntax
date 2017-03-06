@@ -1,4 +1,4 @@
-.todo, .fixme, .changed, .xxx, .note, .hack, .idea, .review {
+.syntax--todo, .syntax--fixme, .syntax--changed, .syntax--xxx, .syntax--note, .syntax--hack, .syntax--idea, .syntax--review {
   // Full support of language-todo
   // TODO and FIXME ("action items") have same color
   // CHANGED and REVIEW ("new or untested") have same color
@@ -12,18 +12,18 @@
   z-index: 10000 !important;
 }
 
-.todo, .fixme {
+.syntax--todo, .syntax--fixme {
   color: @s1 !important;
 }
 
-.changed, .review {
+.syntax--changed, .syntax--review {
   color: @s2 !important;
 }
 
-.note, .idea {
+.syntax--note, .syntax--idea {
   color: @s3 !important;
 }
 
-.hack {
+.syntax--hack {
   color: @s4 !important;
 }

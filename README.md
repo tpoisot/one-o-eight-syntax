@@ -1,9 +1,9 @@
 # One-O-Eight
 
 One-O-Eight is a multi-schemes syntax. It comes with two backgrounds (white on
-black or black on white), and (as of now) three foreground schemes: *Bright*,
-*Viridis*, and *Calm*. All schemes are based on five colours; the name
-one-o-eight comes from 108°, the internal angles in a pentagon.
+black or black on white), and two foreground schemes: *Bright* and *Calm*. All
+schemes are based on five colours; the name one-o-eight comes from 108°, the
+internal angles in a pentagon.
 
 ## Main features
 
@@ -30,10 +30,6 @@ color has a lighter variant.
 ### Bright on Dark
 
 ![b-d](https://github.com/tpoisot/writer-syntax/raw/master/img/Dark-Bright.png)
-
-### Viridis on Light
-
-![v-l](https://github.com/tpoisot/writer-syntax/raw/master/img/Light-Viridis.png)
 
 ### Calm on Light
 

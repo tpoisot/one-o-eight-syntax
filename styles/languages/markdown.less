@@ -1,96 +1,96 @@
-.md {
+.syntax--md {
 
-  .hr {
+  .syntax--hr {
     color: @s5;
     font-weight: bold;
   }
 
-  .heading {
+  .syntax--heading {
     color: @dark-gray;
     font-weight: bold;
-    .punctuation {
+    .syntax--punctuation {
       font-weight: normal !important;
       color: @s2 !important;
     }
   }
 
-  .list, .quote {
-    .punctuation {
+  .syntax--list, .syntax--quote {
+    .syntax--punctuation {
       color: @l2 !important;
     }
   }
 
-  .table {
+  .syntax--table {
     color: @very-dark-gray !important;
-    .alignment, .storage, .punctuation {
+    .syntax--alignment, .syntax--storage, .syntax--punctuation {
       color: @l2!important;
       font-weight: normal;
     }
   }
 
-  .emphasis {
+  .syntax--emphasis {
     color: @writer-fg;
-    &.italic {
+    &.syntax--italic {
       font-style: italic;
     }
-    &.bold {
+    &.syntax--bold {
       font-weight: bold;
     }
   }
 
-  .fenced {
+  .syntax--fenced {
     color: @very-dark-gray;
-    .language {
+    .syntax--language {
       color: @light-gray;
       font-style: italic;
     }
   }
 
-  .raw {
+  .syntax--raw {
     color: @l5;
   }
 
-  .link {
-    .text, .string {
+  .syntax--link {
+    .syntax--text, .syntax--string {
       color: @s4 !important;
     }
   }
 
-  .label, .destination {
-    .link {
+  .syntax--label, .syntax--destination {
+    .syntax--link {
       color: @dark-gray !important;
       font-weight: normal !important;
     }
   }
 
   // TODO This is not working right now
-  .image{
-    .punctuation{
+  .syntax--image{
+    .syntax--punctuation{
       &::first-letter{
         color: @s2 !important;
       }
     }
   }
 
-  .critic {
+  .syntax--critic {
 
-    &.highlight {
+    &.syntax--highlight {
       .ooe-highlighted;
     }
 
-    &.inserted {
+    &.syntax--inserted {
       .ooe-added;
     }
 
-    &.deleted {
+    &.syntax--deleted {
       .ooe-removed;
     }
 
-    &.comment {
+    &.syntax--comment {
       .ooe-renamed;
     }
 
-    &.substitution {
+    &.syntax--substitution {
       .ooe-changed;
     }
   }

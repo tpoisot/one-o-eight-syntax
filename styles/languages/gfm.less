@@ -1,95 +1,95 @@
-.source.gfm {
+.syntax--source.syntax--gfm {
 
   -webkit-font-smoothing: auto;
 
   // General thingies
-  .markup {
+  .syntax--markup {
     // Typo
-    &.italic {
+    &.syntax--italic {
       font-style: italic;
       color: @writer-fg;
     }
-    &.bold {
+    &.syntax--bold {
       font-weight: bold;
       color: @writer-fg;
     }
 
     // Headings
-    &.heading {
+    &.syntax--heading {
       color: @very-dark-gray;
       font-weight: bold;
-      &.space, &.marker {
+      &.syntax--space, &.syntax--marker {
         font-weight: normal;
       }
-      &.marker {
+      &.syntax--marker {
         color: @s3;
       }
     }
   }
 
   // Rules
-  .hr {
+  .syntax--hr {
     font-weight: bold;
     color: @light-gray;
   }
 
   // Lists, etc.
-  .list {
+  .syntax--list {
     color: @l3;
   }
 
   // Quotes
-  .quote {
+  .syntax--quote {
     color: @dark-gray;
-    &.support {
+    &.syntax--support {
       font-weight: bold;
       color: @l3;
     }
   }
 
   // References and mentions
-  .mention {
+  .syntax--mention {
     color: @gray;
   }
-  .username {
+  .syntax--username {
     color: @s3;
   }
 
   // Raw code
-  .raw {
+  .syntax--raw {
     color: @dark-gray;
     border-radius: 3px;
     background-color: @very-light-gray;
   }
 
   // Links
-  .link {
-    .entity {
+  .syntax--link {
+    .syntax--entity {
       color: @l1;
     }
-    .underline {
+    .syntax--underline {
       text-decoration: none;
-      .hyperlink;
+      .syntax--hyperlink;
     }
-    .punctuation {
+    .syntax--punctuation {
       color: @gray;
       text-decoration: none !important;
     }
   }
 
   // Tables
-  .table.gfm {
-    .border {
+  .syntax--table.syntax--gfm {
+    .syntax--border {
       color: @gray;
       font-weight: bold;
-      &.outer {
+      &.syntax--outer {
         color: @dark-gray;
       }
-      &.header {
+      &.syntax--header {
         color: @very-light-gray;
       }
     }
-    .alignment {
+    .syntax--alignment {
       color: @light-gray;
     }
   }

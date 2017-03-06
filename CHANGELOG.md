@@ -1,3 +1,7 @@
+## 0.23
+
+- update deprecated styles
+
 ## 0.22
 
 - markdown preview

@@ -1,6 +1,6 @@
 @import "syntax-variables";
 
-atom-text-editor, :host {
+atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
@@ -54,76 +54,76 @@ atom-text-editor, :host {
   }
 }
 
-atom-text-editor::shadow {
+atom-text-editor {
     .find-result .region {
         background-color: fadeout(@syntax-result-marker-color, 45%);
         border: 1px solid @syntax-result-marker-color;
     }
 }
 
-atom-text-editor::shadow .highlight.current-result .region,
-atom-text-editor::shadow .highlight.current-result ~ .highlight.selection .region {
+atom-text-editor .highlight.current-result .region,
+atom-text-editor .highlight.current-result ~ .highlight.selection .region {
   background-color: fadeout(@syntax-result-marker-color-selected, 45%);
 }
 
-atom-text-editor[mini] .scroll-view,
+atom-text-editor[mini] .scroll-view, atom-text-editor .scroll-view
 :host([mini]) .scroll-view {
   padding-left: 1px;
 }
 
 // Comments
-.punctuation{
+.syntax--punctuation{
   color: @light-gray;
 }
 
-.comment {
+.syntax--comment {
   color: @dark-gray;
-  &.punctuation {
+  &.syntax--punctuation {
     color: @light-gray;
   }
 }
 
-.meta{
+.syntax--meta{
   color: @writer-fg;
 }
 
-.none{
+.syntax--none{
   color: @light-gray;
 }
 
-.string{
+.syntax--string{
   color: @s3;
 }
 
-.keyword {
+.syntax--keyword {
   color: @s2;
-  &.operator {
+  &.syntax--operator {
     color: @dark-gray;
   }
-  &.unit {
+  &.syntax--unit {
     color: @l5;
   }
 }
 
-.entity {
+.syntax--entity {
   color: @l1;
 }
 
-.constant{
+.syntax--constant{
   color: @l4;
 }
 
-.storage{
+.syntax--storage{
   color: @s5;
 }
 
-.variable{
+.syntax--variable{
   color: @l3;
-  &.interpolation {
+  &.syntax--interpolation {
     font-weight: bold;
   }
 }
 
-.support {
+.syntax--support {
   color: @l2;
 }

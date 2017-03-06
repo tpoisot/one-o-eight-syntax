@@ -1,28 +1,28 @@
 // Syntax coloring for diff
 
-.source .meta.diff {
-  &.header {
-    &.from-file {
+.syntax--source .syntax--meta.syntax--diff {
+  &.syntax--header {
+    &.syntax--from-file {
       .ooe-changed;
     }
-    &.to-file {
+    &.syntax--to-file {
       .ooe-renamed;
     }
   }
-  &.range {
+  &.syntax--range {
     color: @very-light-gray !important;
   }
-  &.line-number {
+  &.syntax--line-number {
     color: @very-dark-gray !important;
     font-weight: bold;
   }
 }
 
-.source .diff{
-  &.deleted {
+.syntax--source .syntax--diff{
+  &.syntax--deleted {
     .ooe-removed;
   }
-  &.inserted {
+  &.syntax--inserted {
     .ooe-added;
   }
 }
