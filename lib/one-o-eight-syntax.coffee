@@ -11,12 +11,13 @@ module.exports =
       ]
     foregroundVariant:
       title: 'Foreground variant'
-      description: 'Chose between bright (default, five tones) and calm (three tones) variants'
+      description: 'Chose between bright (default, five tones), primary (five tones), and calm (three tones) variants'
       type: 'string'
       default: 'Bright'
       enum: [
         'Bright',
-        'Calm'
+        'Calm',
+        'Primary'
       ]
   activate: (state) ->
     console.log "Activate"
