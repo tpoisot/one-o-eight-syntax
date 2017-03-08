@@ -4,26 +4,27 @@
   // CHANGED and REVIEW ("new or untested") have same color
   // NOTE and IDEA ("for devs eyes only") have same color
   // XXX and HACK have their own color
-  background-color: @very-light-gray;
+  background-color: fadeout(@very-light-gray, 50%);
   color: @s5;
-  padding: 0px 1px;
+  padding: 0px 0px;
   margin: 0px -1px;
-  border-radius: 3px;
+  border-radius: 2px;
+  border: 1px solid @very-light-gray;
   z-index: 10000 !important;
 }
 
 .syntax--todo, .syntax--fixme {
-  color: @s1 !important;
+  color: @l1 !important;
 }
 
 .syntax--changed, .syntax--review {
-  color: @s2 !important;
+  color: @l2 !important;
 }
 
 .syntax--note, .syntax--idea {
-  color: @s3 !important;
+  color: @l3 !important;
 }
 
 .syntax--hack {
-  color: @s4 !important;
+  color: @l4 !important;
 }
