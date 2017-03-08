@@ -33,21 +33,3 @@
     }
   }
 }
-
-// Folders and files in the tree view
-.list-tree, .tree-view-directory{
-  .status-modified {
-    color: @syntax-color-modified !important;
-  }
-  .status-added {
-    color: @syntax-color-added !important;
-  }
-  .status-ignored {
-    color: @gray !important;
-  }
-}
-
-.list-tree li.list-nested-item.selected.status-modified > .list-item,
-.list-tree li.list-nested-item.status-modified > .list-item {
-  color: @syntax-color-modified !important;
-}
