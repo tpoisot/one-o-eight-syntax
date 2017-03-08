@@ -95,11 +95,17 @@ atom-text-editor[mini] .scroll-view, atom-text-editor .scroll-view
 
 .syntax--keyword {
   color: @s2;
+  &.syntax--other {
+    color: @c1;
+  }
   &.syntax--operator {
-    color: @dark-gray;
+    color: @gray;
   }
   &.syntax--unit {
-    color: @l5;
+    color: @l2;
+  }
+  &.syntax--control {
+    color: @s1;
   }
 }
 
@@ -108,9 +114,9 @@ atom-text-editor[mini] .scroll-view, atom-text-editor .scroll-view
 }
 
 .syntax--constant{
-  color: @s4;
+  color: @s5;
   &.syntax--numeric {
-    color: @l5;
+    color: @l3;
   }
 }
 
@@ -126,5 +132,16 @@ atom-text-editor[mini] .scroll-view, atom-text-editor .scroll-view
 }
 
 .syntax--support {
-  color: @l2;
+  color: @c2;
+  &.syntax--macro {
+    color: @c5;
+  }
+}
+
+.syntax--function {
+  color: @s2;
+}
+
+.syntax--parameter {
+  color: @s4;
 }
