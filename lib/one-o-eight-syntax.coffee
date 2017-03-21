@@ -17,7 +17,9 @@ module.exports =
       enum: [
         'Bright',
         'Calm',
-        'Primary'
+        'Primary',
+        'Forest',
+        'Shiny'
       ]
   activate: (state) ->
     console.log "Activate"
