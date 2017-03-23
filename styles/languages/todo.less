@@ -5,7 +5,6 @@
   // NOTE and IDEA ("for devs eyes only") have same color
   // XXX and HACK have their own color
   background-color: fadeout(@very-light-gray, 50%);
-  color: @s5;
   padding: 0px 0px;
   margin: 0px -1px;
   border-radius: 2px;
@@ -13,18 +12,26 @@
   z-index: 10000 !important;
 }
 
-.syntax--todo, .syntax--fixme {
-  color: @l1 !important;
+.syntax--todo {
+  color: @col4 !important;
+}
+
+.syntax--fixme {
+  color: @col5 !important;
 }
 
 .syntax--changed, .syntax--review {
-  color: @l2 !important;
+  color: @col2 !important;
 }
 
 .syntax--note, .syntax--idea {
-  color: @l3 !important;
+  color: @col3 !important;
 }
 
 .syntax--hack {
-  color: @l4 !important;
+  color: @dark-col4 !important;
+}
+
+.syntax--xxx {
+  color: @light-col1 !important;
 }

@@ -82,60 +82,65 @@ atom-text-editor[mini] .scroll-view, atom-text-editor .scroll-view
 }
 
 .syntax--meta{
-  color: @writer-fg;
+  color: @very-dark-gray;
 }
 
 .syntax--none{
-  color: @light-gray;
+  color: @gray;
 }
 
+// Strings
 .syntax--string{
-  color: @s3;
-}
-
-.syntax--keyword {
-  color: @s2;
-  &.syntax--operator {
-    color: @gray;
-  }
-  &.syntax--unit {
-    color: @l2;
-  }
+  color: @col3;
 }
 
 .syntax--entity {
-  color: @l1;
-}
-
-.syntax--constant{
-  color: @s5;
-  &.syntax--numeric {
-    color: @l3;
+  color: @col1;
+  &.syntax--function {
+    color: @dark-col1;
   }
 }
 
-.syntax--storage{
-  color: @s5;
+.syntax--support {
+  color: @col2;
+  &.syntax--function {
+    color: @col2;
+  }
+  &.syntax--macro {
+    color: @light-col2;
+  }
+  &.syntax--type {
+    color: @col4;
+    &.syntax--property-name {
+      color: @col2;
+    }
+  }
 }
 
 .syntax--variable{
-  color: @l3;
+  color: @light-col2;
   &.syntax--interpolation {
     font-weight: bold;
   }
 }
 
-.syntax--support {
-  color: @l2;
-  &.syntax--macro {
-    color: @l5;
+.syntax--keyword {
+  color: @dark-col2;
+  &.syntax--operator {
+    color: @gray;
+  }
+  &.syntax--unit {
+    color: @light-col2;
   }
 }
 
-.syntax--function {
-  color: @l2;
+.syntax--constant{
+  color: @dark-col5;
+  &.syntax--numeric {
+    color: @dark-col4;
+  }
 }
 
-.syntax--parameter {
-  color: @s4;
+.syntax--storage{
+  color: @col5;
 }

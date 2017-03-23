@@ -1,7 +1,7 @@
 .syntax--md {
 
   .syntax--hr {
-    color: @s5;
+    color: @col5;
     font-weight: bold;
   }
 
@@ -10,20 +10,20 @@
     font-weight: bold;
     .syntax--punctuation {
       font-weight: normal !important;
-      color: @s2 !important;
+      color: @col2 !important;
     }
   }
 
   .syntax--list, .syntax--quote {
     .syntax--punctuation {
-      color: @l2 !important;
+      color: @light-col2 !important;
     }
   }
 
   .syntax--table {
     color: @very-dark-gray !important;
     .syntax--alignment, .syntax--storage, .syntax--punctuation {
-      color: @l2!important;
+      color: @light-col2!important;
       font-weight: normal;
     }
   }
@@ -47,12 +47,12 @@
   }
 
   .syntax--raw {
-    color: @l5;
+    color: @light-col5;
   }
 
   .syntax--link {
     .syntax--text, .syntax--string {
-      color: @s4 !important;
+      color: @col4 !important;
     }
   }
 
@@ -67,7 +67,7 @@
   .syntax--image{
     .syntax--punctuation{
       &::first-letter{
-        color: @s2 !important;
+        color: @col2 !important;
       }
     }
   }
