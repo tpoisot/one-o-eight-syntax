@@ -1,9 +1,17 @@
 # One-O-Eight
 
 One-O-Eight is a multi-schemes syntax. It comes with two backgrounds (white on
-black or black on white), and two foreground schemes: *Bright* and *Calm*. All
-schemes are based on five colours; the name one-o-eight comes from 108°, the
-internal angles in a pentagon.
+black or black on white), and a number of foreground schemes. All schemes are
+based on five colours; the name one-o-eight comes from 108°, the internal angles
+in a pentagon.
+
+The schemes are:
+
+1. *Bright*, five colors, good on *Light* background (default)
+1. *Primary*, five colors, good on either background
+1. *Shiny*, five colors, good on *Dark* background
+1. *Calm*, green/blue/purple, good on *Light* background
+1. *Forest*, green/blue/brown, good on either background
 
 ## Main features
 
@@ -21,7 +29,7 @@ internal angles in a pentagon.
 
 All screenshots use the free [Hack](https://github.com/chrissimpkins/Hack) font
 at 15pt, which is *great*. All variants use a palette with five colors, and each
-color has a lighter variant.
+color has a lighter variant and a darker variant.
 
 ### Bright on Light (default)
 
