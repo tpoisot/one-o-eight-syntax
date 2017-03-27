@@ -35,7 +35,7 @@ atom-text-editor {
   .gutter .line-number.folded,
   .gutter .line-number:after,
   .fold-marker:after {
-    color: @light-gray;
+    color: @dim-gray;
   }
 
   .invisible {
@@ -71,18 +71,18 @@ atom-text-editor[mini] .scroll-view, atom-text-editor .scroll-view
 
 // Comments
 .syntax--punctuation{
-  color: @light-gray;
+  color: @dim-gray;
 }
 
 .syntax--comment {
-  color: @dark-gray;
+  color: @lively-gray;
   &.syntax--punctuation {
-    color: @light-gray;
+    color: @dim-gray;
   }
 }
 
 .syntax--meta{
-  color: @very-dark-gray;
+  color: @very-lively-gray;
 }
 
 .syntax--none{
@@ -97,7 +97,7 @@ atom-text-editor[mini] .scroll-view, atom-text-editor .scroll-view
 .syntax--entity {
   color: @col1;
   &.syntax--function {
-    color: @dark-col1;
+    color: @lively-col1;
   }
 }
 
@@ -107,7 +107,7 @@ atom-text-editor[mini] .scroll-view, atom-text-editor .scroll-view
     color: @col2;
   }
   &.syntax--macro {
-    color: @light-col2;
+    color: @dim-col2;
   }
   &.syntax--type {
     color: @col4;
@@ -118,26 +118,26 @@ atom-text-editor[mini] .scroll-view, atom-text-editor .scroll-view
 }
 
 .syntax--variable{
-  color: @light-col2;
+  color: @dim-col2;
   &.syntax--interpolation {
     font-weight: bold;
   }
 }
 
 .syntax--keyword {
-  color: @dark-col2;
+  color: @lively-col2;
   &.syntax--operator {
     color: @gray;
   }
   &.syntax--unit {
-    color: @light-col2;
+    color: @dim-col2;
   }
 }
 
 .syntax--constant{
-  color: @dark-col5;
+  color: @lively-col5;
   &.syntax--numeric {
-    color: @dark-col4;
+    color: @lively-col4;
   }
 }
 

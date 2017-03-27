@@ -108,7 +108,7 @@
   * Better highlighting of heading markers
   * List and bullets are gray
 - General
-  * Changed `@light-*` colors
+  * Changed `@dim-*` colors
 - minimap
   * very slight background
 

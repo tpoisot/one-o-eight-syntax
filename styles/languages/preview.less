@@ -1,21 +1,22 @@
 .markdown-preview {
-  margin: 0px auto;
-  max-width: 800px;
+  padding: 0px auto;
+  //max-width: 800px;
   padding: 80px !important;
-  background-color: white;
+  background-color: @ooe-bg;
+  color: @ooe-fg;
   h2, h3, h4, h5, h6 {
-    color: @light-gray !important;
+    color: @gray !important;
   }
   h1 {
     text-align: center;
-    color: @dark-gray !important;
+    color: @very-lively-gray !important;
   }
   a {
-    border-bottom: 2px solid @light-col2;
+    border-bottom: 2px solid @dim-col2;
     &:hover {
       text-decoration: none;
-      border-bottom: 2px solid @col2;
-      background-color: fadeout(@col2, 80%);
+      border-bottom: 2px solid @lively-col2;
+      background-color: fadeout(@dim-col2, 80%);
     }
   }
 }
