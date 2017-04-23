@@ -18,8 +18,6 @@ atom-text-editor {
 
   .gutter {
 
-    color: @syntax-gutter-text-color;
-
     .line-number {
 
       &.cursor-line {
@@ -30,6 +28,10 @@ atom-text-editor {
         color: @syntax-gutter-text-color-selected;
       }
     }
+  }
+
+  .gutter-container {
+    color: @syntax-gutter-text-color;
   }
 
   .gutter .line-number.folded,
@@ -53,10 +55,10 @@ atom-text-editor {
 }
 
 atom-text-editor {
-    .find-result .region {
-        background-color: fadeout(@syntax-result-marker-color, 45%);
-        border: 1px solid @syntax-result-marker-color;
-    }
+  .find-result .region {
+    background-color: fadeout(@syntax-result-marker-color, 45%);
+    border: 1px solid @syntax-result-marker-color;
+  }
 }
 
 atom-text-editor .highlight.current-result .region,
