@@ -16,7 +16,7 @@ module.exports =
       # Step 2 - foreground
       foreground = atom.config.get "one-o-eight-syntax.foregroundVariant"
       foreground_path = "#{__dirname}/../styles/foreground.less"
-      foreground_content = ""
+      foreground_content = ""s
       foreground_file = "#{__dirname}/../styles/colorschemes/fg_" + foreground + ".less"
       foreground_content = fs.readFileSync foreground_file, "utf8"
       fs.writeFileSync foreground_path, foreground_content
