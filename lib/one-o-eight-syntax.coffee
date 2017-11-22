@@ -17,7 +17,6 @@ module.exports =
       enum: [
         'Bright',
         'Calm',
-        'Primary',
         'Forest',
         'Shiny',
         'Colorblind'

@@ -18,16 +18,8 @@
 //
 
 // Accent colors (from foreground theme)
-@mod: 80%;
-
-@dim-col1: mix(@col1, @ooe-bg, @mod);
-@dim-col2: mix(@col2, @ooe-bg, @mod);
-@dim-col3: mix(@col3, @ooe-bg, @mod);
-@dim-col4: mix(@col4, @ooe-bg, @mod);
-@dim-col5: mix(@col5, @ooe-bg, @mod);
-
-@lively-col1: mix(@col1, @ooe-fg, @mod);
-@lively-col2: mix(@col2, @ooe-fg, @mod);
-@lively-col3: mix(@col3, @ooe-fg, @mod);
-@lively-col4: mix(@col4, @ooe-fg, @mod);
-@lively-col5: mix(@col5, @ooe-fg, @mod);
+@accent-col1: desaturate(lighten(@col1, 8%), 15%);
+@accent-col2: desaturate(lighten(@col2, 8%), 15%);
+@accent-col3: desaturate(lighten(@col3, 8%), 15%);
+@accent-col4: desaturate(lighten(@col4, 8%), 15%);
+@accent-col5: desaturate(lighten(@col5, 8%), 15%);
