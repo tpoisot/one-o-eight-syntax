@@ -2,7 +2,7 @@
   "name": "one-o-eight-syntax",
   "main": "./lib/one-o-eight-syntax",
   "theme": "syntax",
-  "version": "0.32.0",
+  "version": "0.33.0",
   "description": "A multi-purpose theme, for prose and coding. Comes in Light and Dark variants.",
   "license": "MIT",
   "repository": "https://github.com/tpoisot/one-o-eight-syntax",
