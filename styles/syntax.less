@@ -1,0 +1,75 @@
+// Comments
+.syntax--punctuation{
+  color: @dim-gray;
+}
+
+.syntax--comment {
+  color: @lively-gray;
+  &.syntax--punctuation {
+    color: @dim-gray;
+  }
+}
+
+.syntax--meta{
+  color: @very-lively-gray;
+}
+
+.syntax--none{
+  color: @gray;
+}
+
+// Strings
+.syntax--string{
+  color: @col3;
+}
+
+.syntax--entity {
+  color: @accent-col1;
+  &.syntax--function {
+    color: @col1 !important;
+  }
+}
+
+.syntax--support {
+  color: @col2;
+  &.syntax--function {
+    color: @col2;
+  }
+  &.syntax--macro {
+    color: @accent-col3;
+  }
+  &.syntax--type {
+    color: @accent-col4;
+    &.syntax--property-name {
+      color: @col2;
+    }
+  }
+}
+
+.syntax--variable{
+  color: @accent-col2;
+  &.syntax--interpolation {
+    font-weight: bold;
+  }
+}
+
+.syntax--keyword {
+  color: @col2;
+  &.syntax--operator {
+    color: @gray;
+  }
+  &.syntax--unit {
+    color: @accent-col2;
+  }
+}
+
+.syntax--constant{
+  color: @col5;
+  &.syntax--numeric {
+    color: @col4;
+  }
+}
+
+.syntax--storage{
+  color: @accent-col5;
+}
