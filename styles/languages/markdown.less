@@ -1,16 +1,25 @@
 .syntax--md {
 
+  .syntax--reference{
+    &.syntax--variable{
+      color: @col3;
+      .syntax--punctuation {
+        color: @accent-col4;
+      }
+    }
+  }
+
   .syntax--hr {
-    color: @accent-col2;
+    color: @col5;
     font-weight: bold;
   }
 
   .syntax--heading {
-    color: @col3;
+    color: @very-lively-gray;
     font-weight: bold;
     .syntax--punctuation {
       font-weight: normal !important;
-      color: @accent-col3 !important;
+      color: @col2 !important;
     }
   }
 
@@ -24,7 +33,7 @@
   .syntax--table {
     color: @very-lively-gray !important;
     .syntax--alignment, .syntax--storage, .syntax--punctuation {
-      color: @accent-col2!important;
+      color: @gray!important;
       font-weight: normal;
     }
   }
@@ -42,25 +51,36 @@
   .syntax--fenced {
     color: @very-lively-gray;
     .syntax--language {
-      color: @accent-col1;
+      color: @accent-col3;
       font-style: italic;
     }
   }
 
   .syntax--raw {
-    color: @accent-col5;
+    color: @col3;
   }
 
-  .syntax--link {
-    .syntax--text, .syntax--string {
-      color: @col4 !important;
+  .syntax--label{
+    &.syntax--link{
+      &.syntax--string{
+        color: @accent-col4 !important;
+      }
     }
   }
 
-  .syntax--label, .syntax--destination {
-    .syntax--link {
-      color: @lively-gray !important;
-      font-weight: normal !important;
+  .syntax--text{
+    &.syntax--link{
+      &.syntax--string{
+        color: @col3 !important;
+      }
+    }
+  }
+
+  .syntax--image{
+    &.syntax--link{
+      &.syntax--string{
+        color: @col3 !important;
+      }
     }
   }
 
