@@ -11,11 +11,12 @@ module.exports =
       ]
     foregroundVariant:
       title: 'Foreground variant'
-      description: 'Chose between bright (default, five tones), primary (five tones), and calm (three tones) variants'
+      description: 'Chose between six color themes'
       type: 'string'
       default: 'Bright'
       enum: [
         'Bright',
+        'Original'
         'Calm',
         'Forest',
         'Shiny',
