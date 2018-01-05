@@ -20,7 +20,8 @@ module.exports =
         'Calm',
         'Forest',
         'Shiny',
-        'Colorblind'
+        'Colorblind',
+        'Seaside'
       ]
   activate: (state) ->
     console.log "Activate"
