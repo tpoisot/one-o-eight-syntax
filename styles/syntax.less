@@ -1,25 +1,25 @@
 // Comments
 .syntax--punctuation{
-  color: @dim-gray;
+  color: @very-dim-gray;
 }
 
 .syntax--comment {
   color: @lively-gray;
   &.syntax--punctuation {
-    color: @dim-gray;
+    color: @very-dim-gray;
   }
 }
 
-.syntax--meta{
+.syntax--meta {
   color: @very-lively-gray;
 }
 
-.syntax--none{
+.syntax--none {
   color: @gray;
 }
 
 // Strings
-.syntax--string{
+.syntax--string {
   color: @col3;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .syntax--support {
-  color: @col2;
+  color: @accent-col2;
   &.syntax--function {
     color: @col2;
   }
@@ -39,7 +39,7 @@
     color: @accent-col3;
   }
   &.syntax--type {
-    color: @accent-col4;
+    color: @col4;
     &.syntax--property-name {
       color: @col2;
     }
@@ -54,7 +54,7 @@
 }
 
 .syntax--keyword {
-  color: @col2;
+  color: @accent-col2;
   &.syntax--operator {
     color: @gray;
   }
@@ -65,8 +65,11 @@
 
 .syntax--constant{
   color: @col5;
+  &.syntax--other {
+    color: @accent-col1;
+  }
   &.syntax--numeric {
-    color: @col4;
+    color: @col3;
   }
 }
 
